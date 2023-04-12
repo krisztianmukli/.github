@@ -1,6 +1,14 @@
 # EditorConfig
-# Version: 1.0.0
-# Updated: 2023-03-31
+# Version: 1.0.0 (Using https://semver.org/)
+# Updated: 2023-04-12
+#
+# The following sources were used to create this file
+# https://github.com/RehanSaeed/EditorConfig
+# https://github.com/vinibrsl/editorconfig-templates
+# https://gist.github.com/buoto/7e2cff6c17c108658fc751df845b1040
+# https://github.com/PowerShell/PowerShell
+#
+# See http://EditorConfig.org for more information about .editorconfig files.
 
 # This file is the top-most EditorConfig file
 root = true
@@ -16,29 +24,93 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 
 ################################################################################
-# Tab-separated values
+# C/C++ files
 ################################################################################
-[*.tsv]
-indent_style = tab
+[*.{c,h,cpp,hpp}]
+indent_size = 2
+
+################################################################################
+# Elixir files
+################################################################################
+[{*.ex,*.exs}]
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+################################################################################
+# Javascript/Vue files
+################################################################################
+[{*.js,*.json,*.vue}]
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.js]
+block_comment_start = /**
+block_comment = *
+block_comment_end = */
 
 ################################################################################
 # Json files
 ################################################################################
 [*.{json,json5,webmanifest}]
 indent_size = 2
+insert_final_newline = ignore
 
 ################################################################################
-# Yaml files
+# Makefiles
 ################################################################################
-[*.{yml,yaml}]
-indent_size = 2
+[Makefile]
+indent_style = tab
 
 ################################################################################
 # Markdown files
 ################################################################################
 [*.{md,mdx}]
 indent_size = 2
+indent_style = space
 trim_trailing_whitespace = false
+
+################################################################################
+# Python/Django files
+################################################################################
+[*.{ini,py,py.tpl,rst}]
+indent_size = 4
+indent_style = space
+
+[*.{bat.tpl,Makefile.tpl}]
+indent_size = 4
+indent_style = tab
+
+################################################################################
+# Ruby on Rails files
+################################################################################
+[{*.rb,Gemfile,*.js,*.erb,*.css}]
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+################################################################################
+# Shell script files
+################################################################################
+
+# Batch files
+[*.{cmd,bat}]
+end_of_line = crlf
+
+# Bash files
+[*.sh]
+end_of_line = lf
+
+# Powershell files
+[*.{ps1,psd1,psm1}]
+indent_size = 4
+
+[*.ps1xml]
+indent_size = 2
 
 ################################################################################
 # Web files
@@ -47,80 +119,34 @@ trim_trailing_whitespace = false
 indent_size = 2
 
 ################################################################################
-# Xml files
+# XML files
 ################################################################################
 [*.{xml,config,props,targets,nuspec,resx,ruleset,vsixmanifest,vsct}]
 indent_size = 2
 
 ################################################################################
-# Script files
+# Yaml files
 ################################################################################
-[*.{cmd,bat}]
-end_of_line = crlf
-
-[*.{ps1,psd1,psm1}]
-indent_size = 4
-
-[*.ps1xml]
+[*.{yml,yaml}]
 indent_size = 2
-
-[*.sh]
-end_of_line = lf
-indent_style = tab
-indent_size = 4
-
-################################################################################
-# Python files
-################################################################################
-[*.{ini,py,py.tpl,rst}]
 indent_style = space
-indent_size = 4
-
-[*.{bat.tpl,Makefile.tpl}]
-indent_style = tab
-indent_size = 4
-
-################################################################################
-# Elixir files
-################################################################################
-[*.{ex,exs}]
-indent_size = 2
-
-################################################################################
-# Javascript files
-################################################################################
-[*.js]
-block_comment_start = /**
-block_comment = *
-block_comment_end = */
-
-################################################################################
-# Ruby on Rails files
-################################################################################
-[{*.rb,Gemfile,*.erb}]
-indent_size = 2
-
-################################################################################
-# C/C++ files
-################################################################################
-[Makefile]
-indent_style = tab
-
-[*.{c,h,cpp,hpp}]
-indent_size = 2
 
 ################################################################################
 # Visual Studio files
 ################################################################################
+
+# Visual Studio Solution Files
 [*.sln]
 indent_style = tab
 
+# Visual Studio XML Project Files
 [*.{csproj,vbproj,vcxproj.filters,proj,projitems,shproj}]
 indent_size = 2
 
 ################################################################################
 # C#/VB .NET files
 ################################################################################
+
 ##########################################
 # Default .NET Code Style Severities
 # https://docs.microsoft.com/dotnet/fundamentals/code-analysis/configuration-options#scope
@@ -471,3 +497,38 @@ dotnet_naming_symbols.parameters_group.applicable_kinds = parameter
 dotnet_naming_rule.parameters_rule.symbols              = parameters_group
 dotnet_naming_rule.parameters_rule.style                = camel_case_style
 dotnet_naming_rule.parameters_rule.severity             = warning
+
+##########################################
+# License
+##########################################
+# The following applies as to the .editorconfig file ONLY, and is
+# included below for reference, per the requirements of the license
+# corresponding to this .editorconfig file.
+# See: https://github.com/RehanSaeed/EditorConfig
+#
+# MIT License
+#
+# Copyright (c) 2017-2019 Muhammad Rehan Saeed
+# Copyright (c) 2019 Henry Gabryjelski
+#
+# Permission is hereby granted, free of charge, to any
+# person obtaining a copy of this software and associated
+# documentation files (the "Software"), to deal in the
+# Software without restriction, including without limitation
+# the rights to use, copy, modify, merge, publish, distribute,
+# sublicense, and/or sell copies of the Software, and to permit
+# persons to whom the Software is furnished to do so, subject
+# to the following conditions:
+#
+# The above copyright notice and this permission notice shall be
+# included in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+# OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+# NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+# HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+# WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+# OTHER DEALINGS IN THE SOFTWARE.
+##########################################
