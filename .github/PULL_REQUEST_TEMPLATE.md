@@ -1,4 +1,4 @@
-*Have you read the [Contributing Guidelines](https://github.com/jessesquires/.github/blob/master/CONTRIBUTING.md)?*
+*Have you read the [Contributing Guidelines](https://github.com/krisztianmukli/.github/blob/master/CONTRIBUTING.md)?*
 
 Issue #
 
