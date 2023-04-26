@@ -4,7 +4,7 @@
 
 ### Tartalom
 
-- [Magatartási kódex](#book-code-of-conduct)
+- [Magatartási kódex](#book-magatartasi-kodex)
 - [Kérdések feltevése](#bulb-asking-questions)
 - [Egy probléma megnyitása](#inbox_tray-opening-an-issue)
 - [Funkció-kérések](#love_letter-feature-requests)
