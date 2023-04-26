@@ -498,9 +498,9 @@ dotnet_naming_rule.parameters_rule.symbols              = parameters_group
 dotnet_naming_rule.parameters_rule.style                = camel_case_style
 dotnet_naming_rule.parameters_rule.severity             = warning
 
-##########################################
+################################################################################
 # License
-##########################################
+################################################################################
 # The following applies as to the .editorconfig file ONLY, and is
 # included below for reference, per the requirements of the license
 # corresponding to this .editorconfig file.
@@ -510,6 +510,8 @@ dotnet_naming_rule.parameters_rule.severity             = warning
 #
 # Copyright (c) 2017-2019 Muhammad Rehan Saeed
 # Copyright (c) 2019 Henry Gabryjelski
+# Copyright (c) 2019 Vinicius Brasil
+# Copyright (c) 2023 Krisztian Mukli
 #
 # Permission is hereby granted, free of charge, to any
 # person obtaining a copy of this software and associated

@@ -1,5 +1,9 @@
 ################################################################################
-# Archives.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/Archives.gitignore
+# Global gitignore rules
+################################################################################
+
+################################################################################
+# Archives.gitignore - https://github.com/github/gitignore
 ################################################################################
 # It's better to unpack these files and commit the raw source because
 # git has its own built in compression methods.
@@ -35,7 +39,7 @@
 *.txz
 
 ################################################################################
-# Backup.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/Backup.gitignore
+# Backup.gitignore - https://github.com/github/gitignore
 ################################################################################
 *.bak
 *.gho
@@ -44,13 +48,13 @@
 *.tmp
 
 ################################################################################
-# Diff.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/Diff.gitignore
+# Diff.gitignore - https://github.com/github/gitignore
 ################################################################################
 *.patch
 *.diff
 
 ################################################################################
-# Dropbox.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/Dropbox.gitignore
+# Dropbox.gitignore - https://github.com/github/gitignore
 ################################################################################
 # Dropbox settings and caches
 .dropbox
@@ -58,18 +62,18 @@
 .dropbox.cache
 
 ################################################################################
-# GPG.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/GPG.gitignore
+# GPG.gitignore - https://github.com/github/gitignore
 ################################################################################
 secring.*
 
 ################################################################################
-# LibreOffice.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/LibreOffice.gitignore
+# LibreOffice.gitignore - https://github.com/github/gitignore
 ################################################################################
 # LibreOffice locks
 .~lock.*#
 
 ################################################################################
-# Linux.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/Linux.gitignore
+# Linux.gitignore - https://github.com/github/gitignore
 ################################################################################
 *~
 
@@ -86,7 +90,7 @@ secring.*
 .nfs*
 
 ################################################################################
-# macOS.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/macOS.gitignore
+# macOS.gitignore - https://github.com/github/gitignore
 ################################################################################
 # General
 .DS_Store
@@ -117,7 +121,7 @@ Temporary Items
 .apdisk
 
 ################################################################################
-# MicrosoftOffice.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/MicrosoftOffice.gitignore
+# MicrosoftOffice.gitignore - https://github.com/github/gitignore
 ################################################################################
 *.tmp
 
@@ -140,25 +144,25 @@ Backup of *.doc*
 *.~vsd*
 
 ################################################################################
-# Patch.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/Patch.gitignore
+# Patch.gitignore - https://github.com/github/gitignore
 ################################################################################
 *.orig
 *.rej
 
 ################################################################################
-# PuTTY.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/PuTTY.gitignore
+# PuTTY.gitignore - https://github.com/github/gitignore
 ################################################################################
 # Private key
 *.ppk
 
 ################################################################################
-# Syncthing.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/Syncthing.gitignore
+# Syncthing.gitignore - https://github.com/github/gitignore
 ################################################################################
 # Syncthing caches
 .stversions
 
 ################################################################################
-# Vim.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/Vim.gitignore
+# Vim.gitignore - https://github.com/github/gitignore
 ################################################################################
 # Swap
 [._]*.s[a-v][a-z]
@@ -181,7 +185,7 @@ tags
 [._]*.un~
 
 ################################################################################
-# VisualStudioCode.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/VisualStudioCode.gitignore
+# VisualStudioCode.gitignore - https://github.com/github/gitignore
 ################################################################################
 .vscode/*
 !.vscode/settings.json
@@ -197,7 +201,7 @@ tags
 *.vsix
 
 ################################################################################
-# Windows.gitignore - https://raw.githubusercontent.com/github/gitignore/main/Global/Windows.gitignore
+# Windows.gitignore - https://github.com/github/gitignore
 ################################################################################
 # Windows thumbnail cache files
 Thumbs.db

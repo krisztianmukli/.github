@@ -1,7 +1,7 @@
 {
   "name": "project-name",
   "version": "0.1.0",
-  "description": "Short description of project, see Short description section in README.md file",
+  "description": "Short description of project, see in README.md file",
   "main": "index.js",
   "private": true,
   "repository": {
