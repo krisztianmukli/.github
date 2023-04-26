@@ -173,7 +173,7 @@ beleértve az írásjeleket is.
 
 ## :memo: Commit üzenetek írása
 
-Kérlek [írj szemantikus commit üzenetet](https://chris.beams.io/posts/git-commit/).
+Kérlek írj [konvencionális commit üzeneteket](https://www.conventionalcommits.org).
 
 1. Válaszd el a tárgyat a törzstől egy üres sorral.
 1. Korlátozd a tárgy sort 50 karakterre
@@ -184,11 +184,11 @@ Kérlek [írj szemantikus commit üzenetet](https://chris.beams.io/posts/git-com
 1. Körülbelül 72 karakteresre tördeld a szövegtörzset
 1. A szövegtörzset használd a **miért**, *nem a mit és hogyan* magyarázatára 
 (a kódból ez látszik!).
-1. Adott esetben a cím elé írja be a vonatkozó komponens nevét. (példák: 
-"[Docs] Javítsd ki az elírást", "[Profile] Javítsd ki a hiányzó avatart").
+1. A cím elé írd be a commit típusát. 
+(példák: "docs: Elírás javítása", "fix: Hiányzó komponens javítása").
 
 ```
-[TAG] A változtatások rövid összefoglalása 50 karakterben vagy annál rövidebben
+type: A változtatások rövid összefoglalása 50 karakterben vagy annál rövidebben
 
 Szükség esetén adj hozzá részletesebb magyarázatot. Esetleg add meg 
 a javított probléma hátterét, stb. A szöveg törzsszövege 

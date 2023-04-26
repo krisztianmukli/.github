@@ -163,7 +163,7 @@ punctuation.
 
 ## :memo: Writing Commit Messages
 
-Please [write a great commit message](https://chris.beams.io/posts/git-commit/).
+Please write [conventional commit messages](https://www.conventionalcommits.org).
 
 1. Separate subject from body with a blank line
 1. Limit the subject line to 50 characters
@@ -172,11 +172,11 @@ Please [write a great commit message](https://chris.beams.io/posts/git-commit/).
 1. Use the imperative mood in the subject line (example: "Fix networking issue")
 1. Wrap the body at about 72 characters
 1. Use the body to explain **why**, *not what and how* (the code shows that!)
-1. If applicable, prefix the title with the relevant component name. (examples: 
-"[Docs] Fix typo", "[Profile] Fix missing avatar")
+1. If applicable, prefix the title with the type of commit. (examples: 
+"docs: Fix typo", "fix: Fix missing component")
 
 ```
-[TAG] Short summary of changes in 50 chars or less
+type: Short summary of changes in 50 chars or less
 
 Add a more detailed explanation here, if necessary. Possibly give 
 some background about the issue being fixed, etc. The body of the 
