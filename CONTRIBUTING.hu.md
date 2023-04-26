@@ -173,11 +173,11 @@ Azzal, hogy hozzájárulok ehhez a projekthez, tanúsítom, hogy:
 > 1. A hozzájárulást közvetlenül nekem juttatta el egy másik személy, aki az (1), (2) vagy (3) pontot igazolta, és én nem módosítottam azt.
 > 1. Tudomásul veszem és elfogadom, hogy ez a projekt és a hozzájárulás nyilvános, és hogy a hozzájárulásról (beleértve az összes személyes adatot, amelyet benyújtok vele együtt, beleértve az én aláírásomat is) határozatlan ideig megmarad, és a projektnek vagy az érintett nyílt forráskódú licenc(ek)nek megfelelően tovább terjeszthető.
 
-## [No Brown M&M's](https://en.wikipedia.org/wiki/Van_Halen#Contract_riders)
+## [Nincs barna M&M's](https://en.wikipedia.org/wiki/Van_Halen#Contract_riders)
 
 Ha ezt olvasod, gratulálunk kedves felhasználó és (remélhetőleg) közreműködő, hogy idáig eljutottál! Fantasztikus vagy :100: 
 
-Hogy megerősítsd, hogy elolvastad ezt az útmutatót, és a lehető legjobban követed, **helyezd el ezt az emojit a problémád vagy pull requested tetején**: :black_heart: `:black_heart:`
+Hogy megerősítsd, hogy elolvastad ezt az útmutatót, és a lehető legjobban követed, **helyezd el ezt az emojit a problémád vagy pull requested tetején**: :baseball: `:baseball:`
 
 ## :pray: Szerzők
 

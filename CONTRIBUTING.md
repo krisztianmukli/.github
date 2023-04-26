@@ -177,7 +177,7 @@ By making a contribution to this project, I certify that:
 
 If you are reading this, bravo dear user and (hopefully) contributor for making it this far! You are awesome. :100: 
 
-To confirm that you have read this guide and are following it as best as possible, **include this emoji at the top** of your issue or pull request: :black_heart: `:black_heart:`
+To confirm that you have read this guide and are following it as best as possible, **include this emoji at the top** of your issue or pull request: :baseball: `:baseball:`
 
 ## :pray: Credits
 
