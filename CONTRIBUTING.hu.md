@@ -16,7 +16,7 @@
 - [Származási tanúsítvány](#medal_sports-származási-igazolás)
 - [Szerzők](#pray-szerzők)
 
-> **Ez az útmutató arra szolgál, hogy egyértelmű elvárásokat fogalmazzon meg a projektben részt vevők számára, hogy együtt fejleszthessük azt, miközben mindenki számára befogadó teret teremt a részvételre. Ezen irányelvek betartása segít biztosítani a pozitív tapasztalatokat a közreműködők és a karbantartók számára. **
+> **Ez az útmutató arra szolgál, hogy egyértelmű elvárásokat fogalmazzon meg a projektben részt vevők számára, hogy együtt fejleszthessük azt, miközben mindenki számára befogadó teret teremt a részvételre. Ezen irányelvek betartása segít biztosítani a pozitív tapasztalatokat a közreműködők és a karbantartók számára.**
 
 ## :book: Magatartási kódex
 
@@ -42,7 +42,7 @@ Röviden, mivel nagy valószínűséggel fejlesztő vagy, **nyiss egy hibajegyet
 
 - **Új probléma megnyitása előtt olvasd el a dokumentációt és a [Támogatási útmutatót](https://github.com/krisztianmukli/.github/blob/main/SUPPORT.hu.md)**.
 
-- **Ne nyisson duplikált problémát!** Keressd meg a meglévő problémákat, hogy megnézd, nem jelentették-e már korábban a problémád. Ha a probléma már létezik, írd meg megjegyzésben a további információkat. Egyszerűen megjegyezheted, hogy "Nekem is van ilyen problémám", ami segít a leggyakoribb problémák és kérések rangsorolásában. 
+- **Ne nyiss duplikált problémát!** Keressd meg a meglévő problémákat, hogy megnézd, nem jelentették-e már korábban a problémád. Ha a probléma már létezik, írd meg megjegyzésben a további információkat. Egyszerűen megjegyezheted, hogy "Nekem is van ilyen problémám", ami segít a leggyakoribb problémák és kérések rangsorolásában. 
 
 - **Használd inkább a [reakciók](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/)** opciót, ne a hozzászólásokat, ha egyszerűen csak "+1"-et szeretnél adni egy meglévő problémához.
 
@@ -183,7 +183,7 @@ Hogy megerősítsd, hogy elolvastad ezt az útmutatót, és a lehető legjobban 
 
 Írta: [@jessesquires](https://github.com/jessesquires). 
 
-**Kérlek, bátran használd el ezt az útmutatót a saját projektjeidben. Forkoljátok nagyban vagy remixeljétek a saját igényeitekre **.
+**Kérlek, bátran használd el ezt az útmutatót a saját projektjeidben. Forkoljátok nagyban vagy remixeljétek a saját igényeitekre.**
 
 *Az ebben a dokumentumban szereplő kijelentések ötleteinek és kifejezéseinek nagy része a következő közösségek munkáján alapul, vagy azok inspirálták őket:*
 
