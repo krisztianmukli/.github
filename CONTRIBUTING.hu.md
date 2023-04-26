@@ -4,17 +4,17 @@
 
 ### Tartalom
 
-- [Magatartási kódex](#book-magatartasi-kodex)
-- [Kérdések feltevése](#bulb-asking-questions)
-- [Egy probléma megnyitása](#inbox_tray-opening-an-issue)
-- [Funkció-kérések](#love_letter-feature-requests)
-- [Problémák kezelése](#mag-triaging-issues)
-- [Pull-kérelmek benyújtása](#repeat-submitting-pull-requests)
-- [Commit üzenetek írása](#memo-writing-commit-messages)
+- [Magatartási kódex](#book-magatartási-kódex)
+- [Kérdések feltevése](#bulb-kérdések-feltevése)
+- [Egy probléma megnyitása](#inbox_tray-egy-probléma-megnyitása)
+- [Funkció-kérések](#love_letter-funkció-kérések)
+- [Problémák kezelése](#mag-problémák-kezelése)
+- [Pull Requestek benyújtása](#repeat-pull-requestek-benyújtása)
+- [Commit üzenetek írása](#memo-commit-üzenetek-írása)
 - [Kód-ellenőrzés](#white_check_mark-kód-ellenőrzés)
-- [Kódolási stílus](#nail_care-coding-style)
-- [Származási tanúsítvány](#medal_sports-certificate-of-origin)
-- [Szerzők](#pray-credits)
+- [Kódolási stílus](#nail_care-kódolási-stílus)
+- [Származási tanúsítvány](#medal_sports-származási-igazolás)
+- [Szerzők](#pray-szerzők)
 
 > **Ez az útmutató arra szolgál, hogy egyértelmű elvárásokat fogalmazzon meg a projektben részt vevők számára, hogy együtt fejleszthessük azt, miközben mindenki számára befogadó teret teremt a részvételre. Ezen irányelvek betartása segít biztosítani a pozitív tapasztalatokat a közreműködők és a karbantartók számára. **
 
