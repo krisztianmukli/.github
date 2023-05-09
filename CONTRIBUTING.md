@@ -275,7 +275,8 @@ possible, **include this emoji at the top** of your issue or pull request:
 
 ## :pray: Credits
 
-Written by [@jessesquires](https://github.com/jessesquires). 
+Original version written by [@jessesquires](https://github.com/jessesquires). 
+Translated and edited by [@krisztianmukli](https://github.com/krisztianmukli).
 
 **Please feel free to adopt this guide in your own projects. Fork it wholesale 
 or remix it for your needs.**

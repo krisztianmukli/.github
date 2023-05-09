@@ -289,7 +289,8 @@ követed, **helyezd el ezt az emojit a problémád vagy pull requested tetején*
 
 ## :pray: Szerzők
 
-Írta: [@jessesquires](https://github.com/jessesquires). 
+A fájl eredeti példányát [@jessesquires](https://github.com/jessesquires) írta.
+Fordította és saját igényei szerint módosította [@krisztianmukli](https://github.com/krisztianmukli).
 
 **Kérlek, bátran használd el ezt az útmutatót a saját projektjeidben. 
 Forkoljátok nagyban vagy remixeljétek a saját igényeitekre.**
