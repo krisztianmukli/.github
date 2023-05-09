@@ -261,17 +261,17 @@ Azzal, hogy hozzájárulok ehhez a projekthez, tanúsítom, hogy:
 
 > (a) A hozzájárulást részben vagy egészben én hoztam létre, és jogom van a 
 fájlban feltüntetett nyílt forráskódú licenc alapján benyújtani; vagy
-
+>
 > (b) A hozzájárulás olyan korábbi munkán alapul, amely legjobb tudomásom 
 szerint megfelelő nyílt forráskódú licenc alá tartozik, és az adott licenc 
 alapján jogom van arra, hogy az adott munkát - akár részben, akár egészben 
 általam készített módosításokkal - ugyanazon nyílt forráskódú licenc alatt 
 nyújtsam be (kivéve, ha engedélyezik, hogy más licenc alatt nyújtsam be), ahogy 
 az a fájlban szerepel; vagy
-
+>
 > (c) A hozzájárulást közvetlenül nekem juttatta el egy másik személy, aki az 
 (a), (b) vagy (c) pontot igazolta, és én nem módosítottam azt.
-
+>
 > (d) Tudomásul veszem és elfogadom, hogy ez a projekt és a hozzájárulás 
 nyilvános, és hogy a hozzájárulásról (beleértve az összes személyes adatot, 
 amelyet benyújtok vele együtt, beleértve az én aláírásomat is) határozatlan 
