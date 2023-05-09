@@ -241,7 +241,7 @@ When possible, style and format will be enforced with a linter.
 
 ## :medal_sports: Certificate of Origin
 
-*Developer's Certificate of Origin 1.1*
+*[Developer's Certificate of Origin 1.1](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin)*
 
 By making a contribution to this project, I certify that:
 

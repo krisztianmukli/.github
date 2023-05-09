@@ -14,7 +14,7 @@ fogadjuk és bátorítjuk!* :octocat:
 - [Commit üzenetek írása](#memo-commit-üzenetek-írása)
 - [Kód-ellenőrzés](#white_check_mark-kód-ellenőrzés)
 - [Kódolási stílus](#nail_care-kódolási-stílus)
-- [Származási tanúsítvány](#medal_sports-származási-igazolás)
+- [Eredetiségi tanúsítvány](#medal_sports-eredetiségi-tanúsítvány)
 - [Szerzők](#pray-szerzők)
 
 > **Ez az útmutató arra szolgál, hogy egyértelmű elvárásokat fogalmazzon meg a 
@@ -253,23 +253,23 @@ kódbázisban valami hasonlót.
 
 Ha lehetséges, a stílust és a formátumot linterrel fogjuk kikényszeríteni.
 
-## :medal_sports: Származási igazolás
+## :medal_sports: Eredetiségi tanúsítvány
 
-*A fejlesztő származási igazolása 1.1*
+*[Fejlesztők eredetiségi tanúsítványa 1.1](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin)*
 
 Azzal, hogy hozzájárulok ehhez a projekthez, tanúsítom, hogy:
 
-> 1. A hozzájárulást részben vagy egészben én hoztam létre, és jogom van a 
+> (a) A hozzájárulást részben vagy egészben én hoztam létre, és jogom van a 
 fájlban feltüntetett nyílt forráskódú licenc alapján benyújtani; vagy
-> 1. A hozzájárulás olyan korábbi munkán alapul, amely legjobb tudomásom 
+> (b) A hozzájárulás olyan korábbi munkán alapul, amely legjobb tudomásom 
 szerint megfelelő nyílt forráskódú licenc alá tartozik, és az adott licenc 
 alapján jogom van arra, hogy az adott munkát - akár részben, akár egészben 
 általam készített módosításokkal - ugyanazon nyílt forráskódú licenc alatt 
 nyújtsam be (kivéve, ha engedélyezik, hogy más licenc alatt nyújtsam be), ahogy 
 az a fájlban szerepel; vagy
-> 1. A hozzájárulást közvetlenül nekem juttatta el egy másik személy, aki az 
-(1), (2) vagy (3) pontot igazolta, és én nem módosítottam azt.
-> 1. Tudomásul veszem és elfogadom, hogy ez a projekt és a hozzájárulás 
+> (c) A hozzájárulást közvetlenül nekem juttatta el egy másik személy, aki az 
+(a), (b) vagy (c) pontot igazolta, és én nem módosítottam azt.
+> (d) Tudomásul veszem és elfogadom, hogy ez a projekt és a hozzájárulás 
 nyilvános, és hogy a hozzájárulásról (beleértve az összes személyes adatot, 
 amelyet benyújtok vele együtt, beleértve az én aláírásomat is) határozatlan 
 ideig megmarad, és a projektnek vagy az érintett nyílt forráskódú licenc(ek)nek 
