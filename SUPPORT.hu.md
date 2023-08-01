@@ -33,8 +33,8 @@ Olvasd el a [Közreműködési útmutató](https://github.com/krisztianmukli/.gi
 
 Kérjük, **ne tedd** a következőket:
 
-1. :x: Ne keresd meg a szerzőt vagy a hozzájárulót a Twitteren (vagy más 
-közösségi médiában) tweeteléssel vagy közvetlen üzenet küldésével.
+1. :x: Ne keresd meg a szerzőt vagy a hozzájárulót a közösségi médiában vagy 
+közvetlen üzenet küldésével.
 
 1. :x: Ne küldj e-mailt a szerzőnek vagy a közreműködőnek.
 

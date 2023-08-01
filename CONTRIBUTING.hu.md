@@ -58,7 +58,7 @@ amire választ szeretnél kapni**.
 - **Új probléma megnyitása előtt olvasd el a dokumentációt és a 
 [Támogatási útmutatót](https://github.com/krisztianmukli/.github/blob/main/SUPPORT.hu.md)**.
 
-- **Ne nyiss duplikált problémát!** Keressd meg a meglévő problémákat, hogy 
+- **Ne nyiss duplikált problémát!** Keresd meg a meglévő problémákat, hogy 
 megnézd, nem jelentették-e már korábban a problémád. Ha a probléma már létezik, 
 írd meg megjegyzésben a további információkat. Egyszerűen megjegyezheted, hogy 
 "Nekem is van ilyen problémám", ami segít a leggyakoribb problémák és kérések 
@@ -85,7 +85,7 @@ tudjuk garantálni, hogy kérésedet elfogadjuk. Szeretnénk elkerülni a
 [feature creep](https://en.wikipedia.org/wiki/Feature_creep) jelenséget. Lehet, 
 hogy az ötleted nagyszerű, de a projekt keretein kívül esik. Ha elfogadjuk, nem 
 tudunk kötelezettséget vállalni a megvalósítás és a kiadás ütemtervét illetően. 
-Azonban szívesen látjuk, ha benyújtasz egy pull requestet, hogy segítsd!
+Azonban szívesen látjuk, ha benyújtasz egy pull requestet, hogy segíts!
 
 - **Ne nyiss duplikált funkcióigénylést.** Először keress rá a meglévő 
 funkcióigénylésekre. Ha találsz egy korábban kért funkciót (vagy egy nagyon 
@@ -103,8 +103,7 @@ részleteit is.
 
 A problémák kezelése magában foglalhatja a hibajelentések reprodukálását vagy 
 további információk, például verziószámok vagy reprodukálási utasítások kérését.
- Minden segítséget, amit egy probléma gyors megoldásához nyújtani tudsz, nagyra 
- értékelünk!
+Minden segítséget, amit egy probléma gyors megoldásához nyújtani tudsz, nagyra értékelünk!
 
 ## :repeat: Pull Requestek benyújtása
 
@@ -157,11 +156,11 @@ kóddokumentáció megjegyzéseivel vagy a meglévő útmutatókban.
 a megfelelő hibaszámot, ha létezik, és a GitHub felhasználóneved. 
 (példa: "- Fixed crash in profile view. #123 @krisztianmukli")
 
-- **Használd a repo alapértelmezett ágát.** Új ágak létrehozásához és a [pull 
+- **Használd a tároló alapértelmezett ágát.** Új ágak létrehozásához és a [pull 
 request beküldéséhez](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) mindig a kódtároló alapértelmezett ágát 
 használd. Általában ez a `main`, de lehet `dev`, `develop` vagy `master` is.
 
-- **[Old fel a felmerülő összeolvadási konfliktusokat](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-on-github)**.
+- **[Old fel a felmerülő beolvasztási konfliktusokat](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-on-github)**.
 
 - **Azonnal kezeld az esetleges CI-hibákat**. Ha a pull request-ed nem épül be 
 vagy nem megy át a teszteken, kérlek, tegyél be egy másik commitot a javításhoz. 
@@ -293,7 +292,7 @@ A fájl eredeti példányát [@jessesquires](https://github.com/jessesquires) í
 Fordította és saját igényei szerint módosította [@krisztianmukli](https://github.com/krisztianmukli).
 
 **Kérlek, bátran használd el ezt az útmutatót a saját projektjeidben. 
-Forkoljátok nagyban vagy remixeljétek a saját igényeitekre.**
+Forkoljátok egészében vagy alakítsátok át a saját igényeitekre.**
 
 *Az ebben a dokumentumban szereplő kijelentések ötleteinek és kifejezéseinek 
 nagy része a következő közösségek munkáján alapul, vagy azok inspirálták őket:*

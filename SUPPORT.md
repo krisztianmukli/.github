@@ -31,8 +31,8 @@ have already attempted to solve the problem. Provide code samples, but
 
 Please **do not** do any the following:
 
-1. :x: Do not reach out to the author or contributor on Twitter (or other 
-social media) by tweeting or sending a direct message.
+1. :x: Do not reach out to the author or contributor on social media or 
+sending a direct message.
 
 1. :x: Do not email the author or contributor.
 
