@@ -1,169 +1,161 @@
-# Projekt életciklusok és gyakorlatok útmutatója
+# Project Lifecycle and Practices
 
-## Háttér
+## Background
 
-Számos nyílt forráskódú tárolóval rendelkezünk, és ezek száma valószínűleg nem
-fog csökkeni az idő múlásával. A legtöbb tároló nem nagy, de összességükben sok
-munkát jelenthetnek, csak hogy életben tartsuk őket. Néhány tároló csak kósza
-ötletek kezdetleges vázai, míg mások nagyobb gondosságot igényelhetnek, hogy
-idővel jó állapotban maradjanak.
+We have several open source repositories, and that number likely won’t be
+getting smaller with time. Currently, most of these repositories aren’t large,
+but the sum total of them can amount to a lot of work just to “keep the lights
+on”. Some repository are just a rudimentary skeleton of an idea, while others
+may require more care to to remain in good condition over time.
 
-Ennek a dokumentumnak az a célja, hogy megállapítsa, hogyan fogjuk kezelni
-ezeknek a tárolóknak az életciklusát, és biztosítsa, hogy ez az
-életciklus-kezelés egyértelmű legyen mindenki számára, aki kapcsolatba kerül
-velük.
+The goal of this document is to establish how we will manage the lifecycle of
+these repositories and ensure that this lifecycle management is made clear to
+anyone who interacts with them.
 
-### Tartalom
+### Contents
 
-- [A csapatok felelőssége](#busts_in_silhouette-a-csapatok-felelőssége)
-- [Tárolók állapotai](#bar_chart-tárolók-állapotai)
-    - [Hogyan változik egy tároló állapota](#chart_with_upwards_trend-hogyan-változik-egy-tároló-állapota)
-    - [Az archiválás megszüntetésére irányuló kérelem](#recycle-az-archiválás-megszüntetésére-irányuló-kérelem)
-- [Problémakezelés](#mag-problémakezelés)
-    - [A problémakezelés általános gyakorlata](#bug-a-problémakezelés-általános-gyakorlata)
-    - [Problémakezelési gyakorlatok a tároló állapota tekintetében](#white_check_mark-problémakezelési-gyakorlatok-a-tároló-állapota-tekintetében)
-    - [Fenntartjuk a jogot, hogy lezárjuk a kérdéseket](#negative_squared_cross_mark-fenntartjuk-a-jogot-hogy-lezárjuk-a-kérdéseket)
-- [Hozzájárulások](#repeat-hozzájárulások)
-    - [Hozzájárulások általános kezelése](#twisted_rightwards_arrows-hozzájárulások-általános-kezelése)
-    - [Új funkciók és nagyobb pull requestek kezelése](#love_letter-új-funkciók-és-nagyobb-pull-requestek-kezelése)
-    - [Elfogadási feltételek](#ok-elfogadási-feltételek)
-    - [Elfogadási feltételek a pull request típusától függően](#capital_abcd-elfogadási-feltételek-a-pull-request-típusától-függően)
-    - [Hozzájárulások kezelése a tároló állapota tekintetében](#heavy_check_mark-hozzájárulások-kezelése-a-tároló-állapota-tekintetében)
-    - [Fenntartjuk a jogot, hogy nem fogadunk el egy hozzájárulást](#negative_squared_cross_mark-fenntartjuk-a-jogot-hogy-nem-fogadunk-el-egy-hozzájárulást)
-- [Kiadási gyakoriság](#date-kiadási-gyakoriság)
-- [A nyelvek és keretrendszerek nem támogatott verzióinak szabályai](#put_litter_in_its_place-a-nyelvek-és-keretrendszerek-nem-támogatott-verzióinak-szabályai)
-- [Közösségi fájlok](#beer-közösségi-fájlok)
-- [Automatizálás](#robot-automatizálás)
-- [Szerzők](#black_nib-szerzők)
+- [Responsibility of the teams](#busts_in_silhouette-responsibility-of-the-teams)
+- [Repository states](#bar_chart-repository-states)
+    - [How repositories move from state to state](#chart_with_upwards_trend-how-repositories-move-from-state-to-state)
+    - [Petitioning to unarchive a repository](#recycle-petitioning-to-unarchive-a-repository)
+- [Issue triage](#mag-issue-triage)
+    - [Issue triage general practices](#bug-issue-triage-general-practices)
+    - [Issue triage practices with respect to repository states](#white_check_mark-issue-triage-practices-with-respect-to repository-states)
+    - [We reserve the right to close issues](#negative_squared_cross_mark-we-reserve-the-right-to-close-issues)
+- [Pull request triage](#repeat-pull-request-triage)
+    - [Pull request triage general practices](#twisted_rightwards_arrows-pull-request-triage-general-practices)
+    - [Handling new features and larger pull requests](#love_letter-handling-new-features-and-larger-pull requests)
+    - [Acceptance criteria](#ok-acceptance-criteria)
+    - [Acceptance criteria based on the kind of pull request](#capital_abcd-acceptance-criteria-based-on-the-kind-of-pull-request)
+    - [Pull request triage practices with respect to repository states](#heavy_check_mark-pull-request-triage-practices-with-respect-to-repository-states)
+    - [We reserve the right to deny a contribution](#negative_squared_cross_mark-we-reserve-the-right-to-deny-a-contribution)
+- [Release cadence](#date-release-cadence)
+- [Support policy for unsupported versions of languages and frameworks](#put_litter_in_its_place-support-policy-for-unsupported-versions-of-languages-and-frameworks)
+- [Community health files](#beer-community-health-files)
+- [Automation](#robot-automation)
+- [Credits](#black_nib-credits)
 
-## :busts_in_silhouette: A csapatok felelőssége
+## :busts_in_silhouette: Responsibility of the teams
 
-Mielőtt belemerülnénk a dokumentum további részébe, érdemes megjegyezni, hogy
-egy adott tároló életciklusa és gyakorlatai végső soron az adott tárolót
-birtokló csapat belátására vannak bízva. Előfordulhatnak olyan, az egyik csapat
-tárolóhelyére jellemző körülmények, amelyek egy másik csapat tárolóhelyére nem
-érvényesek. A jelen dokumentum tartalma nem olyan szigorúan betartandó szabály,
-amelyet minden tárolónk esetén szigorúan betartunk.
+Before diving into the rest of this document, it’s worth noting that the
+lifecycle and practices of a given repository are ultimately at the discretion
+of the team who owns that repository. There may be circumstances unique to one
+teams’ repository that do not hold for another team’s repository. The contents
+of this document are not hard and fast rules that every team strictly adheres to
+for every single repository.
 
-Ennek ellenére a legtöbb tároló követi az ebben a dokumentumban szereplő
-útmutatást.
+That being said, most repositories will follow the guidance in this document.
 
-## :bar_chart: Tárolók állapotai
+## :bar_chart: Repository states
 
-A következő állapotokat határozzuk meg egy kódtárolóhoz:
+We define a few states for a repository:
 
-1. **Kísérleti:** A tároló aktív fejlesztés alatt állhat, de az is lehet, hogy 
-nem. A tárolóból fordított szoftverek valószínűleg csak korlátozottan 
-használhatóak, de az is előfordulhat, hogy egyáltalán nem fordíthatóak le. Ezek 
-jellemzően kezdeti fázisban lévő projektek vagy kódkezdemények, amelyeket 
-bármikor félbehagyhatunk, vagy lezárhatunk, majd újra megnyithatunk, amikor azt 
-jónak látjuk. Az ilyen tárolókhoz előfordulhat, hogy semmilyen támogatást, 
-segítséget vagy dokumentációt nem tudunk nyújtani.
+1. **Experimental:** The repository may or may not be under active development.
+Software compiled from the repository is likely to be of limited use, but may
+not be compiled at all. These are typically early-stage projects or code starts,
+which can be suspended or closed at any time and reopened when we see fit. For
+such repositories, there may be no support at all, assistance or documentation.
 
-1. **Aktívan fejlesztett:** A tárolóban rendszeres fejlesztési tevékenység 
-folyik, például új funkciók hozzáadása, vagy meglévő funkciók hibajavítása. Ez 
-idő alatt előfordulhatnak olyan változások, amelyek hatással vannak a korábbi 
-verziókkal való kompatibilitásra. Egyes tárolóknál előfordulhat, hogy hosszabb 
-időre is aktív fejlesztés alatt állnak, másoknál lehetséges, hogy hosszabb 
-időre magára hagyottnak tűnhetnek, de attól még később tervezett fejlesztések 
-történhetnek benne és a tároló aktívan használatban van.
+1. **Actively developed:** Regular development activity in the repository is
+ongoing, such as adding new features or bugfixing existing features. During this
+time, changes may occur that affect compatibility with previous versions. Some
+repositories may be under active development for a longer period of time, others
+may appear to be abandoned for a longer period of time, but still have planned
+improvements later on and be in active use.
 
-1. **Karbantartott:** A tároló stabilnak és teljesnek tekinthető, abba már új 
-funkciók bevezetését nem tervezzük, azonban a meglévő funkciók hibajavítása és 
-a függőségek karbantartása még mindig zajlik. Biztonsági javításokat és a 
-függőségek frissítése miatt esetleg szükséges módosításokat szívesen fogadjuk 
-ezekhez a tárolókhoz, de új funkciók bevezetéséhez a tároló forkolását szoktuk 
-javasolni.
+1. **Maintained:** The repository is considered stable and complete, no new
+features are planned, but bug fixes and dependencies are still being maintained.
+Security patches and changes that may be necessary to update dependencies are
+welcome for these repositories, but to introduce new features we recommend you
+can fork the repository.
 
-1. **Archivált:** Ebbe a tárolóba már nem lehet hozzájárulást küldeni, a GitHub 
-archiválási eszközével archiváltuk. Nincs benne semmiféle aktivitás. Ebbe az 
-állapotba juthat gyakorlatilag bármelyik korábbi állapotból egy tároló, tehát 
-nem garantált, hogy egyáltalán használható kódot, vagy lefordítható kész 
-terméket tartalmaz, ha mégis, az elkészült build valószínűleg elavult, 
-biztonsági vagy egyéb szempontból nem javasolt a használata.
+1. **Archived:**  It is no longer possible to interact with this repository. It
+is archived with GitHub’s archival tool. There is zero activity of any sort.
+This state can be reached from virtually any previous state of a repository, so
+there is no guarantee that it contains any usable code or compilable finished
+product, and if it does, the build is likely to be out of date, security or
+otherwise not recommended for use.
 
-### :chart_with_upwards_trend: Hogyan változik egy tároló állapota
+### :chart_with_upwards_trend: How repositories move from state to state
 
-Ha egy tároló **kísérleti** akkor annak sorsa attól függ, hogy végül valami 
-használható eredmény születik-e belőle vagy sem. Azt javasoljuk, hogy ne 
-építsünk semmire, ami kísérleti tárolóban található.
+If a repository is **Experimental**, then the state it ultimately moves into
+will be determined by the result of the experiment being done. As such, it is
+highly recommended that nobody depend on anything marked as Experimental.
 
-Ha a tároló az **aktívan fejlesztett** stádiumba ér, akkor általában már van 
-egy vagy több használható kiadása (ezek nem feltétlenül érik el az 1.0.0-s 
-verziószámot) és van karbantartott és releváns dokumentációja. Ugyanakkor 
-tudomásul kell venni, hogy bármikor a működést komolyan befolyásoló, vagy azt 
-eltörő módosítást eszközölhetünk rajta.
+When a repository reaches the **actively developed** stage, it usually already
+has one or more usable releases (not necessarily up to version 1.0.0) and
+maintained and relevant documentation. However, it should be acknowledged that
+at any time there may be a significant impact on or break the operation of the
+system.
 
-Egy **karbantartott** tárolóban található kód és annak kiadásai már általában 
-stabilak, ha nem is érik el egy késztermék állapotát, de a működésen, a főbb 
-funkciókon és a kód felépítésében mélyreható változásokat már nem tervezünk. 
-Egy ilyen tároló előfordulhat, hogy akár hosszú ideig sem kap új módosítást, 
-vagy commitot, de általában amíg az adott kódbázis lefordítható naprakész 
-operációs rendszerek, futtatókörnyezetek és fejlesztőeszközök segítségével, 
-addig nem archiváljuk, és építhetünk a tároló tartalmára.
+The code and its releases in a **maintained** repository are generally stable,
+if not ready for a finished product, but no major changes to the functionality,
+no new major features and no code structure changes are planned. Such a
+repository may not receive any new changes or commits for a long time, but
+usually as long as the code base is compilable with up-to-date operating
+systems, runtimes and development tools, we do not archive and build on the
+contents of the repository.
 
-Ha egy kísérleti tároló végül nem vezet használható eredményre, vagy egy 
-aktívan fejlesztett, illetve karbantartott projekt végül elavultá válik, vagy 
-egyszerűen csak már semmilyen érdekünk vagy rendszerkövetelményünk nem követeli 
-meg, hogy egy tárolót fenntartsunk, akkor **archiváljuk** azt. Egy archivált 
-tároló jellemzően örökre archivált marad, nagyon ritka esetben fordulhat csak 
-elő, hogy valamilyen követelményváltozás miatt egy tároló visszakerül a aktívan 
-fejlesztett stádiumba.
+If an experimental repository eventually fails to produce a usable result, or an
+actively developed and maintained project eventually becomes obsolete, or simply
+no longer has any interest or system requirements to maintain a repository, then
+**archive** it. Typically, an archived repository will remain archived forever;
+it is very rare that a repository will revert back to the actively developed
+stage due to a change in requirements.
 
-### :recycle: Az archiválás megszüntetésére irányuló kérelem
+### :recycle: Petitioning to unarchive a repository
 
-Egy kódtároló archiválásának feloldására nincs meghatározott eljárás. Ha 
-szükséged van egy archivált kódbázis által előállított szoftverre, akkor 
-nyugodtan forkold el és használd úgy, ahogy jónak látod. Jellemzően az olyan 
-kéréseket, amik arra vonatkoznak, hogy valamilyen munkát végezzünk el egy már 
-archivált tárolónkon, vissza fogjuk utasítani.
+There is no official process to petition to unarchive a repository. If you
+depend on an artifact that the codebase produces, and need to change it, please
+feel free to fork it and use as you see fit. Typically, requests to do some work
+on a project that has already been already archived, will be rejected.
 
-## :mag: Problémakezelés
+## :mag: Issue triage
 
-A problémák hatékony és következetes kezelésének céljából meghatározunk néhány 
-általános és a tároló állapotára jellemző gyakorlatot, de ne feledjük, hogy 
-egyes tárolóknak lehetnek olyan speciálisabb gyakorlatai, amelyek csak az 
-adott projektre jellemzőek.
+In order to deal with problems effectively and consistently, we will define some
+general practices that are specific to the state of the repository, but remember
+that some repositories may have more specific practices that are only specific
+to a particular project.
 
-### :bug: A problémakezelés általános gyakorlata
+### :bug: Issue triage general practices
 
-Arra törekszünk, hogy minden új problémát a létrehozástól számított *1 hónap*on 
-belül megvizsgáljunk.
+We will strive to have any new issue looked at by someone within *1 month* of
+creation.
 
-A tárolók rendelkeznek egy problémasablonnal, amely segít meghatározni a 
-probléma bejelentésével kapcsolatos elvárásokat.
+Repositories will have an issue template that helps set expectations for filing
+an issue.
 
-Ha egy kérdést megvizsgálunk, akkor azt:
-* megfelelően felcímkézzük
-* további információkat kérhetünk be, ha az szükséges a megértéshez
-* opcionálisan átnevezhetjük a problémát a kereshetőség és a kiadási jegyzetek 
-generálásának automatizálásának javítása érdekében
+When an issue is looked at, it will:
 
-Igyekszünk minden tőlünk telhetőt megtenni annak érdekében, hogy a kérdéssel 
-kapcsolatos megbeszéléseket időben lefolytassuk.
+* be appropriately labeled 
+* request further information if it is necessary for understanding
+* optionally rename the issue to improve searchability and automate the
+  generation of release notes
 
-Ha további információkat kérünk, és 2 hónapon belül nem kapunk választ, 
-lezárjuk a hibajegyet:
+We will try our best to be timely with any discussions on an issue.
 
-* Ezt egy üzenettel tesszük, amelyben elmagyarázzuk, hogy miért zárjuk le az 
-ügyet.
-* Megemlítjük, hogy szívesen megnyitjuk újra, ha további információk érkeznek.
+If we ask for additional information, and don’t hear back within *2 months*, we
+will close the issue:
 
-Proaktívan törekszünk a problémalisták "tisztán tartására", különösen azért, 
-mert adott esetben a problémákat más rendszereken keresztül is nyomon 
-követhetjük (pl: privát projekttáblák, kanban, todo.md, stb.).
+* This will be done with a message explaining why we’re closing it
+* We will mention that we are happy to re-open it if more information is
+  provided
 
-Általánosságban elmondható, hogy egy ügyet akkor tartunk nyitva, ha az megfelel 
-az alábbi kritériumok közül egynek vagy többnek:
+We are proactive in keeping our issue lists “clean”, especially since we may
+track issues in a more central location (such as a public or private project
+boards, kanban, todo.md, etc).
 
-* A hiba önmagában reprodukálható, vagy nyilvánvalóan hibás viselkedés
-* A problémaleírás egyértelmű
-* A kérdés releváns a projekt és/vagy a kérdést benyújtó személy szempontjából
-* A probléma egy produktív vita az tárolóról/projektről (a csapat döntése 
-alapján GitHub Discussion-be is átalakítható).
+In general, for us to keep an issue open, it needs to meet one or more of the
+following criteria:
 
-Ha ezek a kritériumok nem teljesülnek, akkor a rendszeres problémakezelés 
-részeként lezárhatjuk a problémát.
+* Has a minimal, self-contained reproduction OR be obviously incorrect behavior
+* The problem described is unambiguous
+* The issue is still relevant to the project and/or person who filed the issue
+* The issue is a productive discussion about the repository/project (it may also
+  be converted into a GitHub Discussion at the discretion of the team)
+
+If these criteria are not met, we may close the issue as a part of regular issue
+grooming.
 
 Előfordulhat az is, hogy nagyon régi hibajegyeket zárunk le. Gyakran előfordul, 
 hogy a régi hibák súlyossága és relevanciája idővel csökken, különösen, ha a 
@@ -182,7 +174,7 @@ zárunk be. Ebben az esetben WONTFIX címkét alkalmazunk, és nem nyitjuk meg �
 a problémát, illetve nem fogadunk el olyan pull requestet, amely kijavítja azt. 
 Ezt a lezárást a döntést magyarázó üzenet fogja kísérni.
 
-### :white_check_mark: Problémakezelési gyakorlatok a tároló állapota tekintetében
+### :white_check_mark: Issue triage practices with respect to repository states
 
 A következő gyakorlatokat alkalmazzuk a tároló állapotával összefüggésben:
 
@@ -203,7 +195,7 @@ elsőbbséget.
 **Archivált**
 * Nem lehetséges probléma beküldése.
 
-### :negative_squared_cross_mark: Fenntartjuk a jogot, hogy lezárjuk a kérdéseket
+### :negative_squared_cross_mark: We reserve the right to close issues
 
 Nem minden kérdést van értelme nyitva tartani. Következzen néhány (de nem 
 kizárólagos) ok, amiért lezárhatjuk a hibajegyet:
@@ -221,14 +213,14 @@ kódexét, és egyértelműen volt benne némi erőfeszítés. Ha hajlandó vagy
 szánni arra, hogy átgondoltan küldj be egy problémát, akkor magyarázatot 
 érdemelsz arra, hogy miért zártuk be.
 
-## :repeat: Hozzájárulások
+## :repeat: Pull request triage
 
 Hasonlóan a problémák kezeléséhez, nehéz lehet egyetlen szabályrendszert vagy 
 gyakorlatot alkalmazni arra vonatkozóan, hogy hogyan kezeljük a tárolóinkhoz 
 való hozzájárulásokat. A problémakezeléshez hasonló gyakorlatok vonatkoznak a 
 pull requestek kezelésére is.
 
-### :twisted_rightwards_arrows: Hozzájárulások általános kezelése
+### :twisted_rightwards_arrows: Pull request triage general practices
 
 Arra törekszünk, hogy minden új pull requestet a létrehozástól számított 1 
 héten belül megvizsgáljon valaki az adott projektnél.
@@ -272,7 +264,7 @@ közreműködésünket az adott projekten. Ez azért fordulhat elő, mert projek
 jellemzően non-profit keretek között készülnek, és nem biztos, hogy minden 
 időben rendelkezésre áll megfelelő emberi, technikai vagy egyéb feltétel.
 
-### :love_letter: Új funkciók és nagyobb pull requestek kezelése
+### :love_letter: Handling new features and larger pull requests
 
 Arra kérünk, hogy ne küldj be azonnal új funkciókat és/vagy nagyobb 
 pull-requesteket anélkül, hogy a munkádhoz kapcsolódó elfogadott probléma lenne.
@@ -297,7 +289,7 @@ Ha mindannyian egyetértünk abban, hogy a javaslatodnak van értelme, nyugodtan
 nyújtsd be a nagyobb pull requestet. Ha nem értünk egyet, arra kérünk, ne 
 nyújtsd be pull requestet, mert azt le fogjuk zárni.
 
-### :ok: Elfogadási feltételek
+### :ok: Acceptance criteria
 
 Ez a szakasz elég egyértelmű, általános elfogadási feltételeink a következőek:
 * Minden teszt sikeres
@@ -307,7 +299,7 @@ formázva (ezt egy .editorconfig fájl automatizálhatja).
 
 És ennyi! Van néhány további feltételünk a pull request típusától függően.
 
-### :capital_abcd: Elfogadási feltételek a pull request típusától függően
+### :capital_abcd: Acceptance criteria based on the kind of pull request
 
 **Hibajavítások**:
 Kell legyen egy regressziós teszteset, amely bizonyítja, hogy a javítás 
@@ -341,7 +333,7 @@ nagyon nehéz bizonyítékot gyűjteni.
 
 Semmi különös, eltekintve a visszajelzések figyelembevételének biztosításától.
 
-### :heavy_check_mark: Hozzájárulások kezelése a tároló állapota tekintetében
+### :heavy_check_mark: Pull request triage practices with respect to repository states
 
 Ezeken túlmenően meghatározunk néhány konkrét gyakorlatot az adott tároló 
 állapotával összefüggésben.
@@ -369,7 +361,7 @@ elfogadásra kerülhetnek.
 
 * Hozzájárulás nem lehetséges.
 
-### :negative_squared_cross_mark: Fenntartjuk a jogot, hogy nem fogadunk el egy hozzájárulást
+### :negative_squared_cross_mark: We reserve the right to deny a contribution
 
 Nem minden hozzájárulásnak van értelme a szóban forgó kódtároló számára. Ennek 
 okai lehetnek többek között (de nem kizárólagosan):
@@ -393,7 +385,7 @@ magatartási kódexét, és egyértelműen volt benne némi erőfeszítés. Ha h
 vagy időt szánni egy hozzájárulás átgondolt benyújtására, akkor magyarázatot 
 érdemelsz arra, hogy miért zártuk le.
 
-## :date: Kiadási gyakoriság
+## :date: Release cadence
 
 Az előző szakaszokhoz hasonlóan a kiadási gyakoriság az adott kódtároló 
 állapotára és az azt kezelő csapat belátására van bízva. Egy nagy, 
@@ -423,7 +415,7 @@ Továbbá, ha úgy érzed, hogy egy könyvtár új verzióját kellene kiadni, c
 nekünk egy új GitHub hibajegyet. A kiadások néha megszakításokkal történhetnek, 
 és ez rendben is van.
 
-## :put_litter_in_its_place: A nyelvek és keretrendszerek nem támogatott verzióinak szabályai
+## :put_litter_in_its_place: Support policy for unsupported versions of languages and frameworks
 
 Mivel több nyelvet és keretrendszert kell támogatnunk, nem szeretnénk, ha a 
 régebbi verziók támogatására mennének el az erőforrásaink, ezért a következő 
@@ -439,7 +431,7 @@ tekinthető, akkor is, ha **Aktívan fejlesztett** vagy **Karbantartott**
 építünk. Kell lennie egy olyan hibajegynek, amely nyomon követi a támogatott 
 verzióra való frissítést.
 
-## :beer: Közösségi fájlok
+## :beer: Community health files
 
 Minden **Aktívan fejlesztett**, valamint **Karbantartott** tárolónknak 
 rendelkeznie kell a következő [közösségi fájlokkal](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file#supported-file-types)
@@ -460,12 +452,11 @@ eltérhet egymástól.
 Azoknak a tárolóknak, amelyek **Kísérleti** vagy **Archivált** állapotban 
 vannak, nem biztos, hogy vannak ilyen fájljaik.
 
-## :robot: Automatizálás
+## :robot: Automation
 
-Arra törekszünk, hogy a lehető legtöbb folyamatot automatizáljuk. Célunk, hogy 
-a legfontosabb dolgokra koncentráljunk, és hagyjuk, hogy a dolgok a maguk 
-módján áramoljanak, például a GitHub projektekbe. Ez magában foglalja a 
-következőket:
+Arra törekszünk, hogy a lehető legtöbb folyamatot automatizáljuk. Célunk, hogy a
+legfontosabb dolgokra koncentráljunk, és hagyjuk, hogy a dolgok a maguk módján
+áramoljanak, például a GitHub projektekbe. Ez magában foglalja a következőket:
 
 * Dependabot engedélyezve a lehető legtöbb adattárban (automatikus címkézéssel).
 * Különféle GitHub Actions, amelyek segítenek a kódtárolók ápolásában, ha 
@@ -474,7 +465,7 @@ szükséges, mint például a [Stale bot](https://github.com/actions/stale).
 PR-okat a megfelelő állapotokhoz társítják és mozgatják az adott táblában, de 
 lehetnek privát táblák és tárolóhelyek is. 
 
-## :black_nib: Szerzők
+## :black_nib: Credits
 
 *Az ebben a dokumentumban szereplő kijelentések ötleteinek és kifejezéseinek 
 nagy része a következő közösségek munkáján alapul, vagy azok inspirálták őket:*
