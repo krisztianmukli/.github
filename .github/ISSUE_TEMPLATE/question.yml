@@ -1,0 +1,66 @@
+name: ❓ Question
+description: 💬 Ask a question about this project
+title: "[Question]: "
+labels: ["question", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🙋‍♂️ **Thanks for your question!**  
+        Please fill out the form below so we can help you more effectively.  
+        If it's more of a general discussion topic, consider using [GitHub Discussions](https://github.com/krisztianmukli/REPO/discussions) if available.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📋 Guidelines
+      description: By submitting this issue, you agree to follow our [Contributing Guidelines](https://github.com/krisztianmukli/.github/blob/main/CONTRIBUTING.md).
+      options:
+        - label: ✅ I agree to follow this project's Contributing Guidelines.
+          required: true
+
+  - type: dropdown
+    id: question-category
+    attributes:
+      label: 🏷️ Question Type
+      description: What area does your question relate to?
+      options:
+        - 🛠️ How to use a feature
+        - ⚙️ Configuration or setup help
+        - 🧪 Testing or debugging
+        - 💡 Best practices or recommendations
+        - 🔍 Clarification on documentation
+        - 🧩 API usage
+        - 🌐 Deployment or environment
+        - 🧑‍💻 Contribution or development
+        - 🗨️ Other (please explain below)
+      multiple: false
+    validations:
+      required: true
+
+  - type: textarea
+    id: question-details
+    attributes:
+      label: ❓ Your Question
+      description: ✏️ Please describe your question clearly and concisely.
+      placeholder: Provide all necessary details, examples, or background information.
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempted
+    attributes:
+      label: 🔎 What have you tried?
+      description: 🧠 Let us know what you've tried so far to solve the issue on your own.
+      placeholder: Describe any steps, tools, or research you’ve done.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Additional Context
+      description: 🖼️ Anything else we should know to better answer your question?
+      placeholder: Screenshots, code snippets, or other relevant context.
+    validations:
+      required: false

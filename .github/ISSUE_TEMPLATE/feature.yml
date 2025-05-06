@@ -1,48 +1,97 @@
-name: Feature request
-description: Suggest an idea for this project
-title: "[Feature]: "
-labels: ["feature request", "enhancement", "feature"]
+name: ✨ Feature request
+description: 💡 Suggest a new feature or improvement
+title: "[Feature]: 🚀"
+labels: ["feature request", "enhancement"]
 body:
   - type: markdown
     attributes:
-      value: Thanks for taking the time to complete this form!
+      value: |
+        👋 Thanks for suggesting a feature! Please fill out the following fields to help us understand your request. 📝
+
   - type: checkboxes
     id: terms
     attributes:
-      label: Guidelines
+      label: 📜 Guidelines
       description: By submitting this issue, you agree to follow our [Contributing Guidelines](https://github.com/krisztianmukli/.github/blob/main/CONTRIBUTING.md).
       options:
-        - label: I agree to follow this project's Contributing Guidelines.
+        - label: ✅ I agree to follow this project's Contributing Guidelines.
           required: true
+
+  - type: dropdown
+    id: feature-type
+    attributes:
+      label: 🆕 Feature Type
+      description: Is this a completely new feature or an improvement to an existing one?
+      options:
+        - ✨ New feature
+        - 🔁 Enhancement of existing feature
+      multiple: false
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: feature-category
+    attributes:
+      label: 🧭 Feature Category
+      description: What area of the project would this feature affect?
+      options:
+        - 🎨 UI / UX
+        - 🔧 Core functionality
+        - 🔌 API / Integration
+        - 🗃️ Data handling / Storage
+        - 🌍 Internationalization / Localization
+        - 🚀 Performance improvement
+        - 🔐 Security enhancement
+        - 📖 Documentation
+        - ⚙️ Configuration / Setup
+        - 🧪 Testing / QA
+        - 🔄 Developer tooling
+        - ❓ Other (please specify below)
+      multiple: false
+    validations:
+      required: true                
+
   - type: textarea
     id: description
     attributes:
-      label: Description
-      description: Clearly and concisely describe what you would like to change, add, or implement.
-      placeholder: Tell us your idea.
+      label: ✍️ Feature Description
+      description: Describe the feature or improvement you'd like to see.
+      placeholder: What should be added or improved?
     validations:
       required: true
+
   - type: textarea
     id: problem
     attributes:
-      label: Problem
-      description: Is your feature request related to a problem?
-      placeholder: What problem will this solve?
+      label: 🛠 Problem
+      description: Is this feature related to a specific problem or limitation?
+      placeholder: What problem does this feature solve?
     validations:
-      required: true
+      required: false
+
   - type: textarea
     id: solution
     attributes:
-      label: Proposed Solution
-      description: How should this be solved?
-      placeholder: How do you think this should be implemented?
+      label: 🧠 Suggested Solution
+      description: How do you envision this feature working?
+      placeholder: Describe the desired implementation or behavior.
     validations:
-      required: true
+      required: false
+
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives Considered
-      description: Are there other possible approaches?
-      placeholder: Can you think of any other options?
+      label: 🔄 Alternatives Considered
+      description: Have you thought of other ways to achieve the same goal?
+      placeholder: List any alternative solutions or workarounds.
     validations:
-      required: true
+      required: false
+      
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📝 Additional Context
+      description: Add any other information, screenshots, or use cases that may help.
+      placeholder: Optional but helpful context or examples.
+    validations:
+      required: false

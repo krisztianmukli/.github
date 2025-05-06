@@ -1,0 +1,74 @@
+name: 🛠️ Code Refactoring
+description: Suggest or describe a code refactoring or optimization
+title: "[Refactor]: "
+labels: ["refactor", "technical debt"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ✨ **Refactoring makes code better!**  
+        Use this form to propose improvements in code structure, performance, or maintainability — without changing behavior.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📋 Guidelines
+      description: By submitting this issue, you agree to follow our [Contributing Guidelines](https://github.com/krisztianmukli/.github/blob/main/CONTRIBUTING.md).
+      options:
+        - label: ✅ I agree to follow this project's Contributing Guidelines.
+          required: true
+
+  - type: dropdown
+    id: refactor-type
+    attributes:
+      label: 🏷️ Refactoring Type
+      description: What kind of refactor are you suggesting?
+      options:
+        - ♻️ Code simplification or cleanup
+        - 🚀 Performance optimization
+        - 🧩 Modularization / separation of concerns
+        - 🧱 Architecture restructuring
+        - 🧪 Test refactor (not coverage improvement)
+        - 🔄 Reducing code duplication
+        - 💡 Improve naming / readability
+        - 🧼 Removing legacy or deprecated code
+        - ✨ Other (please explain below)
+      multiple: false
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-code
+    attributes:
+      label: 🔍 Area for Refactor
+      description: Which part of the codebase needs refactoring?
+      placeholder: File or module names, classes, functions, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 🤔 Why refactor?
+      description: What are the reasons or benefits of this refactor?
+      placeholder: Technical debt? Hard to maintain? Poor performance?
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 💡 Suggested Changes
+      description: Describe how you'd like to improve the code.
+      placeholder: Describe or link to an approach for improving the code.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Additional Context
+      description: Add any relevant notes, benchmarks, or links.
+      placeholder: Optional but helpful.
+    validations:
+      required: false

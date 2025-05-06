@@ -1,0 +1,81 @@
+name: 🌐 Localization issue or suggestion
+description: Report a localization bug or suggest translation improvements
+title: "[Localization]: "
+labels: ["localization", "i18n", "translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🌍 **Help us improve the multilingual experience!**  
+        Use this form to report incorrect translations, missing strings, or suggest new language support.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📋 Guidelines
+      description: By submitting this issue, you agree to follow our [Contributing Guidelines](https://github.com/krisztianmukli/.github/blob/main/CONTRIBUTING.md).
+      options:
+        - label: ✅ I agree to follow this project's Contributing Guidelines.
+          required: true
+
+  - type: dropdown
+    id: localization-type
+    attributes:
+      label: 🏷️ Localization Category
+      description: What kind of localization issue is this?
+      options:
+        - 📝 Translation error or typo
+        - ❓ Missing or untranslated string
+        - 🈳 Wrong context or meaning
+        - 🚫 Encoding/display issue
+        - ➕ Request for new language support
+        - 📄 Language-specific formatting (dates, numbers, etc.)
+        - ✨ Other (please specify below)
+      multiple: false
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: 🌐 Language Affected
+      description: Which language does this issue relate to?
+      placeholder: e.g., German, French, Hungarian, Japanese
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 📌 Issue Description or Suggestion
+      description: Describe the localization issue or improvement suggestion.
+      placeholder: What needs to be fixed or improved?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 🔎 Where did you see it?
+      description: Provide file paths, screen sections, or screenshots to locate the issue.
+      placeholder: e.g., settings panel, login screen, `locales/en.json`
+    validations:
+      required: false
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 💡 Suggested Fix or Translation
+      description: If you have a suggested translation or fix, share it here.
+      placeholder: Provide a corrected or improved translation.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Additional Context
+      description: Any extra details, links, or screenshots that might help.
+      placeholder: Optional but helpful.
+    validations:
+      required: false

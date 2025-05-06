@@ -1,0 +1,74 @@
+name: 📝 Documentation update
+description: 🧐 Report an issue or suggest an improvement for the documentation
+title: "[Docs]: 📄"
+labels: ["documentation", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for helping improve the documentation! ✨"
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📜 Guidelines
+      description: By submitting this issue, you agree to follow our [Contributing Guidelines](https://github.com/krisztianmukli/.github/blob/main/CONTRIBUTING.md).
+      options:
+        - label: ✅ I agree to follow this project's Contributing Guidelines.
+          required: true
+
+  - type: dropdown
+    id: docs-category
+    attributes:
+      label: 📚 Documentation Type
+      description: What kind of documentation update are you suggesting?
+      options:
+        - 🏁 Getting Started / Installation Guide
+        - ⚙️ Configuration or Setup Details
+        - 🧩 API Documentation
+        - 🛠️ Feature Usage Guide
+        - 🧪 How to Test / QA Instructions
+        - 🧑‍💻 Contribution / Development Guide
+        - 🚀 Deployment Process
+        - 📈 Performance Tuning / Best Practices
+        - 📝 Missing or outdated information
+        - 🌍 Localization / Language Support
+        - ❓ Other (please explain below)
+      multiple: false
+    validations:
+      required: true          
+
+  - type: input
+    id: doc-location
+    attributes:
+      label: 📍 Affected Section or File
+      description: Which part of the documentation is affected?
+      placeholder: "README.md, docs/setup.md, API reference"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-content
+    attributes:
+      label: 📝 Current Content
+      description: What does the documentation currently say?
+      placeholder: Paste or describe the current (incorrect or unclear) content here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-change
+    attributes:
+      label: 💡 Suggested Change
+      description: How should the content be corrected or improved?
+      placeholder: Provide the corrected text or suggestion.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 🔎 Context
+      description: Any additional context, links, or explanations?
+      placeholder: Why is this change important or helpful?
+    validations:
+      required: false

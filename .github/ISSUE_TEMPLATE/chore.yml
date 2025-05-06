@@ -1,0 +1,68 @@
+name: 🔧 Maintenance Task
+description: 📦 Suggest or report a chore or maintenance-related task
+title: "[Chore]: "
+labels: ["chore", "maintenance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🧹 **Maintenance matters!**  
+        Help us keep the project clean, efficient, and up-to-date by reporting chores or suggesting improvements.  
+        _Note: This is not for bugs, features, documentation, or refactors._
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📋 Guidelines
+      description: By submitting this issue, you agree to follow our [Contributing Guidelines](https://github.com/krisztianmukli/.github/blob/main/CONTRIBUTING.md).
+      options:
+        - label: ✅ I agree to follow this project's Contributing Guidelines.
+          required: true
+
+  - type: dropdown
+    id: chore-category
+    attributes:
+      label: 🏷️ Chore Category
+      description: What kind of maintenance is this?
+      options:
+        - 🧹 Code cleanup
+        - 📁 File or folder restructuring
+        - 📦 Dependency update
+        - 🧪 Test improvement or coverage
+        - 🧰 CI/CD configuration update
+        - 🛡️ Linting or formatting
+        - 🧾 License or metadata update
+        - 🗂️ Project organization or labeling
+        - 📊 Metrics or logging update
+        - 🖥️ Internal developer tooling
+        - 🧩 Other (please explain below)
+      multiple: false
+    validations:
+      required: true
+
+  - type: textarea
+    id: chore-description
+    attributes:
+      label: 🔧 Task Description
+      description: What maintenance task needs to be done?
+      placeholder: Describe the issue or the suggested change.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 🤔 Why is this needed?
+      description: Why is this chore useful or necessary?
+      placeholder: Explain the context or potential impact.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Additional Context
+      description: Any relevant links, screenshots, or details?
+      placeholder: Add supporting info here (optional).
+    validations:
+      required: false

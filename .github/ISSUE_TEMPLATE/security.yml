@@ -1,0 +1,30 @@
+name: 🔒 Security issue
+description: 🚨 Please do not use this form to report security vulnerabilities.
+title: "[Security]: "
+labels: ["security", "do-not-publish"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚨 Security Notice
+
+        If you believe you've found a **security vulnerability**, **DO NOT** submit it via a public issue.  
+        Instead, please follow our [Security Policy](https://github.com/krisztianmukli/.github/blob/main/SECURITY.md).
+
+        🔐 You can email your findings **privately** to: **security@mukli.hu**
+
+        This helps ensure vulnerabilities are disclosed **responsibly**, without exposing users to risk.
+
+  - type: checkboxes
+    id: understood
+    attributes:
+      label: ✅ I understand
+      description: Please confirm that you will not disclose sensitive information here.
+      options:
+        - label: I understand and will report this issue privately as described above.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        👉 If your report is **not a security concern**, consider using another template (e.g. `bug`, `question`, or `documentation`).
