@@ -15,4 +15,4 @@ nyilvánosságra hozhatók legyenek az érintett felek számára.
 A biztonsági frissítésekkel jelenleg támogatott szoftververziók projektenként 
 változnak. 
 A részletekért tekintsd meg az adott projekt tárolóit. 
-Ha semmi sincs megadva, akkor csak a legújabb főverziók támogatottak.
+Ha semmi sincs megadva, akkor csak a **legújabb főverziók** támogatottak!

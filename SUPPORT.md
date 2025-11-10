@@ -26,7 +26,7 @@ the project, or figuring out how to use the project in a specific way.
 However, please clearly explain what you are trying to do, and list what you 
 have already attempted to solve the problem. Provide code samples, but 
 **do not** attach your entire project for someone else to debug. Review our 
-[contributing guidelines](https://github.com/krisztianmukli/.github/blob/master/CONTRIBUTING.md).
+[contributing guidelines](CONTRIBUTING.md).
 
 ## What NOT to do 
 

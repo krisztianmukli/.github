@@ -28,7 +28,7 @@ hibakeresésre, vagy a projekt speciális használatának kitalálására.
 segítséget kérj. Ara kérünk, világosan magyarázd el, hogy mit próbáltál tenni és
 sorold fel mit próbáltál már ki a probléma megoldására. Adjál kódmintákat, de 
 **ne csatold** a teljes projekted, hogy abban majd valaki megtalálja a hibát.
-Olvasd el a [Közreműködési útmutató](https://github.com/krisztianmukli/.github/blob/master/CONTRIBUTING.hu.md)nkat.
+Olvasd el a [Közreműködési útmutató](CONTRIBUTING.hu.md)nkat.
 
 ## Mit NE tegyél 
 

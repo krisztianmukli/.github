@@ -25,13 +25,13 @@ a positive experience for contributors and maintainers.**
 
 ## :book: Code of Conduct
 
-Please review our [Code of Conduct](https://github.com/krisztianmukli/.github/blob/main/CODE_OF_CONDUCT.md). 
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md). 
 It is in effect at all times. We expect it to be honored by everyone who 
 contributes to this project. Acting like an asshole will not be tolerated.
 
 ## :bulb: Asking Questions
 
-See our [Support Guide](https://github.com/krisztianmukli/.github/blob/main/SUPPORT.md). 
+See our [Support Guide](SUPPORT.md). 
 In short, GitHub issues are not the appropriate place to debug your specific 
 project, but should be reserved for filing bugs and feature requests.
 
@@ -43,7 +43,7 @@ up-to-date, see if updating fixes your issue first.
 
 ### :lock: Reporting Security Issues
 
-Review our [Security Policy](https://github.com/krisztianmukli/.github/blob/main/SECURITY.md). 
+Review our [Security Policy](SECURITY.md). 
 **Do not** file a public issue for security vulnerabilities.
 
 ### :beetle: Bug Reports and Other Issues
@@ -55,7 +55,7 @@ encounter a problem. We always appreciate a well-written, thorough bug report.
 In short, since you are most likely a developer, **provide a ticket that you 
 would like to receive**.
 
-- **Review the documentation and [Support Guide](https://github.com/krisztianmukli/.github/blob/main/SUPPORT.md)** 
+- **Review the documentation and [Support Guide](SUPPORT.md)** 
 before opening a new issue.
 
 - **Do not open a duplicate issue!** Search through existing issues to see if 

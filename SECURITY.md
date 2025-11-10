@@ -14,4 +14,4 @@ to any affected parties.
 
 Project versions that are currently being supported with security updates vary 
 per project. Please see specific project repositories for details. If nothing 
-is specified, only the latest major versions are supported.
+is specified, only the **latest major versions** are supported.
