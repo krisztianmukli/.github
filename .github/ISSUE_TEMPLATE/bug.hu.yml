@@ -1,0 +1,137 @@
+name: 🐞 Hibajelentés
+description: 🚨 Jelents egy hibát magyarul
+title: "[Hiba]: ⚠️"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to complete this bug report! 🙏
+        Please make sure you fill out all required fields. 📋
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📜 Guidelines
+      description: By submitting this issue, you agree to follow our [Contributing Guidelines](https://github.com/krisztianmukli/.github/blob/main/CONTRIBUTING.md).
+      options:
+        - label: ✅ I agree to follow this project's Contributing Guidelines.
+          required: true
+
+  - type: dropdown
+    id: bug-category
+    attributes:
+      label: 🏷️ Bug Category
+      description: What area does this bug primarily affect?
+      options:
+        - ⚙️ General functionality
+        - 🎨 UI/UX issue
+        - 🔌 API problem
+        - 🗄️ Data model / Database
+        - 🚀 Performance issue
+        - 💥 Crash / Exception
+        - 🛠️ Installation / Setup bug
+        - 💻 Compatibility
+        - 🌍 Localization
+        - 📖 Documentation
+        - 🔁 CI/CD pipeline
+        - 📦 Dependencies
+        - ❓ Other (please specify in description)
+      multiple: false
+    validations:
+      required: true
+
+  - type: input
+    id: project
+    attributes:
+      label: 📂 Project Version
+      description: Which project versions are affected? (e.g., 1.0, 2.2, 3.5.1)
+      placeholder: "1.0, 2.2, 3.5.1"
+    validations:
+      required: true
+
+  - type: input
+    id: platform
+    attributes:
+      label: 💻 Platform and OS Version
+      description: Which platforms or operating systems are affected? (e.g., Windows or Unix/Linux)
+      placeholder: "Windows 10, Windows 11, Ubuntu 22.04, Debian 12, Fedora 39"
+    validations:
+      required: true
+
+  - type: input
+    id: devices
+    attributes:
+      label: 📱 Affected Devices
+      description: Does this only occur on specific devices? (e.g., All, Thinkpad T450, Xiaomi Note Pro 8)
+      placeholder: "All, HP EliteBook, Lenovo ThinkPad, MacBook Pro (Intel/M1), Samsung Galaxy S-series"
+    validations:
+      required: true
+
+  - type: input
+    id: existing-issues
+    attributes:
+      label: 🔍 Existing Issues
+      description: "Are there any similar existing issues? (e.g., #42)"
+      placeholder: "#42"
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 🤔 What happened?
+      description: Clearly and concisely describe the bug.
+      placeholder: "Tell us what happened."
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: 🔁 Steps to reproduce
+      description: Provide a clear set of steps to reproduce the issue.
+      value: |
+        1. 
+        2. 
+        3. 
+        ...
+      placeholder: "Step 1: Open the app, Step 2: Click on the button, etc."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: ⚙️ Expected behavior
+      description: What should have happened?
+      placeholder: "What did you expect to happen?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: 📎 Attachments
+      description: Please include code snippets, stack traces, or compiler errors.
+      placeholder: "Paste code snippets, stack traces, and compiler errors here"
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 📸 Screenshots or Videos
+      description: Add screenshots, gifs, or videos to help explain your problem.
+      placeholder: "Upload screenshots, gifs, and videos here"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 🧩 Additional Information
+      description: Add any other useful information about the problem here.
+      placeholder: "Is there any additional helpful information you can share?"
+    validations:
+      required: false
