@@ -26,13 +26,13 @@ számára.**
 
 ## :book: Magatartási kódex
 
-Kérjük, olvasd el [Magatartási kódexünket](https://github.com/krisztianmukli/.github/blob/main/CODE_OF_CONDUCT.hu.md). 
+Kérjük, olvasd el [Magatartási kódexünket](CODE_OF_CONDUCT.hu.md). 
 Ez mindenkor érvényben van. Elvárjuk, hogy mindenki betartsa, aki hozzájárul 
 ehhez a projekthez. A seggfejként való viselkedést nem toleráljuk.
 
 ## :bulb: Kérdések feltevése
 
-Lásd a [Támogatási útmutatót](https://github.com/krisztianmukli/.github/blob/main/SUPPORT.hu.md). 
+Lásd a [Támogatási útmutatót](SUPPORT.hu.md). 
 Röviden, a GitHub Issues nem a megfelelő hely az adott projekted 
 hibakeresésére, hanem a hibák és funkciókérések bejelentésére tartjuk fenn.
 
@@ -44,7 +44,7 @@ naprakész, először nézd meg, hogy a frissítés megoldja-e a problémádat.
 
 ### :lock: Biztonsági problémák jelentése
 
-Tekintsd át a [Biztonsági szabályzatunkat](https://github.com/krisztianmukli/.github/blob/main/SECURITY.hu.md). 
+Tekintsd át a [Biztonsági szabályzatunkat](SECURITY.hu.md). 
 **Ne** jelents be biztonsági résről nyilvánosan hibajegyet!
 
 ### :beetle: Hibajelentések és egyéb problémák
@@ -57,7 +57,7 @@ Röviden, mivel nagy valószínűséggel fejlesztő vagy, **nyiss egy hibajegyet
 amire választ szeretnél kapni**.
 
 - **Új probléma megnyitása előtt olvasd el a dokumentációt és a 
-[Támogatási útmutatót](https://github.com/krisztianmukli/.github/blob/main/SUPPORT.hu.md)**.
+[Támogatási útmutatót](SUPPORT.hu.md)**.
 
 - **Ne nyiss duplikált problémát!** Keresd meg a meglévő problémákat, hogy 
 megnézd, nem jelentették-e már korábban a problémád. Ha a probléma már létezik, 
