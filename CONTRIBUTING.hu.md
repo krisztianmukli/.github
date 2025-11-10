@@ -6,17 +6,17 @@ fogadjuk és bátorítjuk!* :octocat:
 
 ### Tartalom
 
-- [Magatartási kódex](#book-magatartási-kódex)
-- [Kérdések feltevése](#bulb-kérdések-feltevése)
-- [Egy probléma megnyitása](#inbox_tray-egy-probléma-megnyitása)
-- [Funkció-kérések](#love_letter-funkció-kérések)
-- [Problémák kezelése](#mag-problémák-kezelése)
-- [Pull Requestek benyújtása](#repeat-pull-requestek-benyújtása)
-- [Commit üzenetek írása](#memo-commit-üzenetek-írása)
-- [Kód-ellenőrzés](#white_check_mark-kód-ellenőrzés)
-- [Kódolási stílus](#nail_care-kódolási-stílus)
-- [Eredetiségi tanúsítvány](#medal_sports-eredetiségi-tanúsítvány)
-- [Szerzők](#pray-szerzők)
+- [Magatartási kódex](#-magatartási-kódex)
+- [Kérdések feltevése](#-kérdések-feltevése)
+- [Egy probléma megnyitása](#-egy-probléma-megnyitása)
+- [Funkció-kérések](#-funkció-kérések)
+- [Problémák kezelése](#-problémák-kezelése)
+- [Pull Requestek benyújtása](#-pull-requestek-benyújtása)
+- [Commit üzenetek írása](#-commit-üzenetek-írása)
+- [Kód-ellenőrzés](#-kód-ellenőrzés)
+- [Kódolási stílus](#-kódolási-stílus)
+- [Eredetiségi tanúsítvány](#-eredetiségi-tanúsítvány)
+- [Szerzők](#-szerzők)
 
 > **Ez az útmutató arra szolgál, hogy egyértelmű elvárásokat fogalmazzon meg a 
 projektben részt vevők számára, hogy együtt fejleszthessük azt, miközben 
