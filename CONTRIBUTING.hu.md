@@ -33,7 +33,7 @@ ehhez a projekthez. A seggfejként való viselkedést nem toleráljuk.
 ## :bulb: Kérdések feltevése
 
 Lásd a [Támogatási útmutatót](https://github.com/krisztianmukli/.github/blob/main/SUPPORT.hu.md). 
-Röviden, a GitHub kérdések nem a megfelelő hely az adott projekted 
+Röviden, a GitHub Issues nem a megfelelő hely az adott projekted 
 hibakeresésére, hanem a hibák és funkciókérések bejelentésére tartjuk fenn.
 
 ## :inbox_tray: Egy probléma megnyitása
@@ -44,8 +44,8 @@ naprakész, először nézd meg, hogy a frissítés megoldja-e a problémádat.
 
 ### :lock: Biztonsági problémák jelentése
 
-Tekintse át a [Biztonsági szabályzatunkat](https://github.com/krisztianmukli/.github/blob/main/SECURITY.hu.md). 
-**Ne** jelentsen be nyilvános problémát biztonsági résről.
+Tekintsd át a [Biztonsági szabályzatunkat](https://github.com/krisztianmukli/.github/blob/main/SECURITY.hu.md). 
+**Ne** jelents be biztonsági résről nyilvánosan hibajegyet!
 
 ### :beetle: Hibajelentések és egyéb problémák
 
@@ -71,7 +71,7 @@ meglévő problémához.
 
 - **Teljesen töltsd ki a megadott hibajelentés-sablont.** A hibajelentés-sablon 
 minden olyan információt kér, amelyre szükségünk van ahhoz, hogy gyorsan és 
-hatékonyan tudjunk foglalkozni a problémáddal. Legyen világos, tömör és leíró. 
+hatékonyan tudjunk foglalkozni a problémáddal. Legyél világos, tömör és leíró! 
 Adj meg annyi információt, amennyit csak tudsz, beleértve a reprodukálás 
 lépéseit, veremkövetési nyomokat, fordítóhibákat, könyvtárverziókat, operációs 
 rendszer verziókat és képernyőképeket (ha vannak ilyenek).
@@ -111,8 +111,8 @@ Minden segítséget, amit egy probléma gyors megoldásához nyújtani tudsz, na
 Mi **szeretjük** a pull requesteket! 
 A [tároló forkolása](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) 
 és [pull request létrehozása](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/proposing-changes-to-your-work-with-pull-requests) előtt a nem triviális 
-változtatások esetén általában az a legjobb, ha először nyitsz egy issue-t, 
-hogy megvitasd a változtatásokat, vagy egy meglévő issue kommentjeiben 
+változtatások esetén általában az a legjobb, ha először nyitsz egy hibajegyet, 
+hogy megvitasd a változtatásokat, vagy egy meglévő hibajegy kommentjeiben 
 megbeszéled a probléma megoldására tervezett megközelítésedet.
 
 A legtöbb hozzászólás esetén, miután az első pull requestedet elfogadták és 
@@ -169,7 +169,7 @@ vagy nem megy át a teszteken, kérlek, tegyél be egy másik commitot a javít�
 - Amikor megjegyzéseket írsz, használj megfelelően felépített mondatokat, 
 beleértve az írásjeleket is.
 
-- Használjon szóközöket, ne tabulátorokat.
+- Használj szóközöket, ne tabulátorokat.
 
 ## :memo: Commit üzenetek írása
 
@@ -293,7 +293,7 @@ A fájl eredeti példányát [@jessesquires](https://github.com/jessesquires) í
 Fordította és saját igényei szerint módosította [@krisztianmukli](https://github.com/krisztianmukli).
 
 **Kérlek, bátran használd el ezt az útmutatót a saját projektjeidben. 
-Forkoljátok egészében vagy alakítsátok át a saját igényeitekre.**
+Forkolhatod egészében vagy átalakíthatod a saját igényeidnek megfelelően!**
 
 *Az ebben a dokumentumban szereplő kijelentések ötleteinek és kifejezéseinek 
 nagy része a következő közösségek munkáján alapul, vagy azok inspirálták őket:*
