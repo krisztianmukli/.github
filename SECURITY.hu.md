@@ -3,14 +3,14 @@
 
 Ha biztonsági problémát találsz, kérlek, azonnal jelezd nekünk!
 
-## Sebezhetőség bejelentése
+## 🔒 Sebezhetőség bejelentése
 
 Kérlek, **NE PUBLIKÁLJ NYILVÁNOSAN** biztonsági rést, hanem küldd el nekünk 
 személyesen a **security@mukli.hu** címre. Ez segít biztosítani, hogy a talált 
 biztonsági rések [felelősségteljesen](https://en.wikipedia.org/wiki/Responsible_disclosure) 
 nyilvánosságra hozhatók legyenek az érintett felek számára.
 
-## Támogatott verziók
+## 📦 Támogatott verziók
 
 A biztonsági frissítésekkel jelenleg támogatott szoftververziók projektenként 
 változnak. 

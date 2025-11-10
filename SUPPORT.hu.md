@@ -15,16 +15,16 @@ teszi, hogy a projekt fejlesztésére koncentrálhassanak.
 
 A következő módon kérhetsz támogatást:
 
-1. :book: **Olvasd el a projekt dokumentációját és más útmutatókat**, hogy lásd
+1. 📖 **Olvasd el a projekt dokumentációját és más útmutatókat**, hogy lásd
 meg tudod-e oldani egyedül. Ezek általában a projekt gyökerében a `docs/` 
 mappában találhatóak. Ha van példaprojekt, akkor vizsgáld meg, hogy megtudd, 
 hogyan működik, hátha ez megválaszolja a kérdésed.
 
-1. :bulb: **Keress válaszokat, vagy tegyél fel kérdéseket a [Stack Overflow](https://stackoverflow.com) 
+1. 💡 **Keress válaszokat, vagy tegyél fel kérdéseket a [Stack Overflow](https://stackoverflow.com) 
 weboldalon**. Ez a legmegfelelőbb hely a projekt használatára jellemző 
 hibakeresésre, vagy a projekt speciális használatának kitalálására. 
 
-1. :memo: **Végső megoldásként** nyithatsz egy GitHub hibajegyet, hogy 
+1. 📝 **Végső megoldásként** nyithatsz egy GitHub hibajegyet, hogy 
 segítséget kérj. Ara kérünk, világosan magyarázd el, hogy mit próbáltál tenni és
 sorold fel mit próbáltál már ki a probléma megoldására. Adjál kódmintákat, de 
 **ne csatold** a teljes projekted, hogy abban majd valaki megtalálja a hibát.
@@ -34,12 +34,12 @@ Olvasd el a [Közreműködési útmutató](CONTRIBUTING.hu.md)nkat.
 
 Kérjük, **ne tedd** a következőket:
 
-1. :x: Ne keresd meg a szerzőt vagy a hozzájárulót a közösségi médiában vagy 
+1. ❌ Ne keresd meg a szerzőt vagy a hozzájárulót a közösségi médiában vagy 
 közvetlen üzenet küldésével.
 
-1. :x: Ne küldj e-mailt a szerzőnek vagy a közreműködőnek.
+1. ❌ Ne küldj e-mailt a szerzőnek vagy a közreműködőnek.
 
-1. :x: Ne nyiss duplikált témákat, és ne szennyezd be egy meglévő témát +1-ekkel.
+1. ❌ Ne nyiss duplikált témákat, és ne szennyezd be egy meglévő témát +1-ekkel.
 
 Ezek nem megfelelő utak a segítség vagy támogatás kérésére egy nyílt forráskódú 
 projekthez. Légy szíves, kövesd az előző szakaszban található irányelveket. A 

@@ -23,30 +23,30 @@ project so that we can improve it together while also creating a welcoming
 space for everyone to participate. Following these guidelines will help ensure 
 a positive experience for contributors and maintainers.**
 
-## :book: Code of Conduct
+## 📖 Code of Conduct
 
 Please review our [Code of Conduct](CODE_OF_CONDUCT.md). 
 It is in effect at all times. We expect it to be honored by everyone who 
 contributes to this project. Acting like an asshole will not be tolerated.
 
-## :bulb: Asking Questions
+## 💡 Asking Questions
 
 See our [Support Guide](SUPPORT.md). 
 In short, GitHub issues are not the appropriate place to debug your specific 
 project, but should be reserved for filing bugs and feature requests.
 
-## :inbox_tray: Opening an Issue
+## 📥 Opening an Issue
 
 Before [creating an issue](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue), 
 check if you are using the latest version of the project. If you are not 
 up-to-date, see if updating fixes your issue first.
 
-### :lock: Reporting Security Issues
+### 🔒 Reporting Security Issues
 
 Review our [Security Policy](SECURITY.md). 
 **Do not** file a public issue for security vulnerabilities.
 
-### :beetle: Bug Reports and Other Issues
+### 🪲 Bug Reports and Other Issues
 
 A great way to contribute to the project is to send a detailed issue when you 
 encounter a problem. We always appreciate a well-written, thorough bug report. 
@@ -75,7 +75,7 @@ versions, OS versions, and screenshots (if applicable).
 - **Use [GitHub-flavored Markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).** Especially put code blocks and console outputs in backticks (```). This 
 improves readability.
 
-## :love_letter: Feature Requests
+## 💌 Feature Requests
 
 Feature requests are welcome! While we will consider all requests, we cannot 
 guarantee your request will be accepted. We want to avoid 
@@ -94,13 +94,13 @@ asks for all necessary information for us to begin a productive conversation.
 - Be precise about the proposed outcome of the feature and how it relates to 
 existing features. Include implementation details if possible.
 
-## :mag: Triaging Issues
+## 🔍 Triaging Issues
 
 You can triage issues which may include reproducing bug reports or asking for 
 additional information, such as version numbers or reproduction instructions. 
 Any help you can provide to quickly resolve an issue is very much appreciated!
 
-## :repeat: Submitting Pull Requests
+## 🔁 Submitting Pull Requests
 
 We **love** pull requests! Before [forking the repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) 
 and [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/proposing-changes-to-your-work-with-pull-requests) for non-trivial changes, it 
@@ -108,8 +108,7 @@ is usually best to first open an issue to discuss the changes, or discuss your
 intended approach for solving the problem in the comments for an existing issue.
 
 For most contributions, after your first pull request is accepted and merged, 
-you will be [invited to the project](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository) and given **push access**. 
-:tada:
+you will be [invited to the project](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository) and given **push access**. 🎉
 
 *Note: All contributions will be licensed under the project's license.*
 
@@ -162,7 +161,7 @@ punctuation.
 
 - Use spaces, not tabs.
 
-## :memo: Writing Commit Messages
+## 📝 Writing Commit Messages
 
 Please write [conventional commit messages](https://www.conventionalcommits.org).
 
@@ -209,7 +208,7 @@ Resolves: #123
 See also: #456, #789
 ```
 
-## :white_check_mark: Code Review
+## ✅ Code Review
 
 - **Review the code, not the author.** Look for and suggest improvements 
 without disparaging or insulting the author. Provide actionable feedback and 
@@ -224,7 +223,7 @@ learn from your mistakes.
 
 - Kindly note any violations to the guidelines specified in this document. 
 
-## :nail_care: Coding Style
+## 💅 Coding Style
 
 Consistency is the most important. Following the existing style, formatting, 
 and naming conventions of the file you are modifying and of the overall project.
@@ -240,7 +239,7 @@ or search the codebase for something similar.
 
 When possible, style and format will be enforced with a linter.
 
-## :medal_sports: Certificate of Origin
+## 🏅 Certificate of Origin
 
 *[Developer's Certificate of Origin 1.1](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin)*
 
@@ -265,16 +264,15 @@ submit with it, including my sign-off) is maintained indefinitely and may be
 redistributed consistent with this project or the open source license(s) 
 involved.
 
-## [No Brown M&M's](https://en.wikipedia.org/wiki/Van_Halen#Contract_riders)
+## 🍬 [No Brown M&M's](https://en.wikipedia.org/wiki/Van_Halen#Contract_riders)
 
 If you are reading this, bravo dear user and (hopefully) contributor for 
-making it this far! You are awesome. :100: 
+making it this far! You are awesome. 💯 
 
 To confirm that you have read this guide and are following it as best as 
-possible, **include this emoji at the top** of your issue or pull request: 
-:baseball: `:baseball:`
+possible, **include this emoji at the top** of your issue or pull request: ⚾
 
-## :pray: Credits
+## 🙏 Credits
 
 Original version written by [@jessesquires](https://github.com/jessesquires). 
 Translated and edited by [@krisztianmukli](https://github.com/krisztianmukli).

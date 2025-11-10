@@ -24,30 +24,30 @@ mindenki számára befogadó teret teremt a részvételre. Ezen irányelvek beta
 segít biztosítani a pozitív tapasztalatokat a közreműködők és a karbantartók 
 számára.**
 
-## :book: Magatartási kódex
+## 📖 Magatartási kódex
 
 Kérjük, olvasd el [Magatartási kódexünket](CODE_OF_CONDUCT.hu.md). 
 Ez mindenkor érvényben van. Elvárjuk, hogy mindenki betartsa, aki hozzájárul 
 ehhez a projekthez. A seggfejként való viselkedést nem toleráljuk.
 
-## :bulb: Kérdések feltevése
+## 💡 Kérdések feltevése
 
 Lásd a [Támogatási útmutatót](SUPPORT.hu.md). 
 Röviden, a GitHub Issues nem a megfelelő hely az adott projekted 
 hibakeresésére, hanem a hibák és funkciókérések bejelentésére tartjuk fenn.
 
-## :inbox_tray: Egy probléma megnyitása
+## 📥 Egy probléma megnyitása
 
 Mielőtt [problémát hoznál létre](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue), 
 ellenőrizd, hogy a projekt legújabb verzióját használod-e. Ha nem vagy 
 naprakész, először nézd meg, hogy a frissítés megoldja-e a problémádat.
 
-### :lock: Biztonsági problémák jelentése
+### 🔒 Biztonsági problémák jelentése
 
 Tekintsd át a [Biztonsági szabályzatunkat](SECURITY.hu.md). 
 **Ne** jelents be biztonsági résről nyilvánosan hibajegyet!
 
-### :beetle: Hibajelentések és egyéb problémák
+### 🪲 Hibajelentések és egyéb problémák
 
 Egy nagyszerű módja a projekthez való hozzájárulásnak, ha részletes 
 hibajelentést küldesz, amikor problémával találkozol. Mindig nagyra értékeljük 
@@ -79,7 +79,7 @@ rendszer verziókat és képernyőképeket (ha vannak ilyenek).
 - **Használj [GitHub-flavored Markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)**-t. Különösen a kódblokkokat és a konzol kimeneteket tedd backtickek közé (```). Ez 
 javítja az olvashatóságot.
 
-## :love_letter: Funkció kérések
+## 💌 Funkció kérések
 
 Szívesen fogadjuk a funkció kéréseket! Bár minden kérést megfontolunk, nem 
 tudjuk garantálni, hogy kérésedet elfogadjuk. Szeretnénk elkerülni a 
@@ -100,13 +100,13 @@ kezdhessünk.
 kapcsolódik a meglévő funkciókhoz. Ha lehetséges, csatold a megvalósítás 
 részleteit is.
 
-## :mag: Problémák kezelése
+## 🔍 Problémák kezelése
 
 A problémák kezelése magában foglalhatja a hibajelentések reprodukálását vagy 
 további információk, például verziószámok vagy reprodukálási utasítások kérését.
 Minden segítséget, amit egy probléma gyors megoldásához nyújtani tudsz, nagyra értékelünk!
 
-## :repeat: Pull Requestek benyújtása
+## 🔁 Pull Requestek benyújtása
 
 Mi **szeretjük** a pull requesteket! 
 A [tároló forkolása](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) 
@@ -116,8 +116,7 @@ hogy megvitasd a változtatásokat, vagy egy meglévő hibajegy kommentjeiben
 megbeszéled a probléma megoldására tervezett megközelítésedet.
 
 A legtöbb hozzászólás esetén, miután az első pull requestedet elfogadták és 
-egyesítették, [meghívást kapsz a projektbe](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository) és **push access**-t kapsz. 
-:tada:
+egyesítették, [meghívást kapsz a projektbe](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository) és **push access**-t kapsz. 🎉
 
 *Megjegyzés: Minden hozzájárulás a projekt licensze alatt lesz kiadva.*
 
@@ -171,7 +170,7 @@ beleértve az írásjeleket is.
 
 - Használj szóközöket, ne tabulátorokat.
 
-## :memo: Commit üzenetek írása
+## 📝 Commit üzenetek írása
 
 Kérlek írj [konvencionális commit üzeneteket](https://www.conventionalcommits.org).
 
@@ -220,7 +219,7 @@ Resolves: #123
 Lásd még: #456, #789
 ```
 
-## :white_check_mark: Kód ellenőrzés
+## ✅ Kód ellenőrzés
 
 - **Nézd át a kódot, ne a szerzőt.** Keress és javasolj javításokat anélkül, 
 hogy a szerzőt becsmérelnéd vagy megsértenéd. Adj használható visszajelzést, és 
@@ -236,7 +235,7 @@ Tedd meg a legjobbat, és tanulj a hibáidból.
 - Kérjük, vedd figyelembe az ebben a dokumentumban meghatározott irányelvek 
 megsértését.
 
-## :nail_care: Kódolási stílus
+## 💅 Kódolási stílus
 
 A következetesség a legfontosabb. A módosítandó fájl és a teljes projekt 
 meglévő stílusának, formázásának és elnevezési konvencióinak követése. Ennek 
@@ -253,7 +252,7 @@ kódbázisban valami hasonlót.
 
 Ha lehetséges, a stílust és a formátumot linterrel fogjuk kikényszeríteni.
 
-## :medal_sports: Eredetiségi tanúsítvány
+## 🏅 Eredetiségi tanúsítvány
 
 *[Fejlesztők eredetiségi tanúsítványa 1.1](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin)*
 
@@ -278,16 +277,15 @@ amelyet benyújtok vele együtt, beleértve az én aláírásomat is) határozat
 ideig megmarad, és a projektnek vagy az érintett nyílt forráskódú licenc(ek)nek 
 megfelelően tovább terjeszthető.
 
-## [Nincs barna M&M's](https://en.wikipedia.org/wiki/Van_Halen#Contract_riders)
+## 🍬 [Nincs barna M&M's](https://en.wikipedia.org/wiki/Van_Halen#Contract_riders)
 
 Ha ezt olvasod, gratulálunk kedves felhasználó és (remélhetőleg) közreműködő, 
-hogy idáig eljutottál! Fantasztikus vagy :100: 
+hogy idáig eljutottál! Fantasztikus vagy! 💯 
 
 Hogy megerősítsd, hogy elolvastad ezt az útmutatót, és a lehető legjobban 
-követed, **helyezd el ezt az emojit a problémád vagy pull requested tetején**: 
-:baseball: `:baseball:`
+követed, **helyezd el ezt az emojit a problémád vagy pull requested tetején**: ⚾
 
-## :pray: Szerzők
+## 🙏 Szerzők
 
 A fájl eredeti példányát [@jessesquires](https://github.com/jessesquires) írta.
 Fordította és saját igényei szerint módosította [@krisztianmukli](https://github.com/krisztianmukli).
