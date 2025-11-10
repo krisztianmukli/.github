@@ -1,4 +1,4 @@
-[🇬🇧 en](CONTRIBUTING.md) | [🇭🇺 hu](CONTRIBUTING.hu.md)
+🇬🇧 [en](CONTRIBUTING.md) | 🇭🇺 [hu](CONTRIBUTING.md)
 # Contributing Guidelines
 
 *Pull requests, bug reports, and all other forms of contribution are welcomed 

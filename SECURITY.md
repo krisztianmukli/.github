@@ -1,4 +1,4 @@
-[🇬🇧 en](SECURITY.md) | [🇭🇺 hu](SECURITY.hu.md)
+🇬🇧 [en](SECURITY.md) | 🇭🇺 [hu](SECURITY.hu.md)
 # Security Policy
 
 If you discover a security issue, please bring it to our attention right away!

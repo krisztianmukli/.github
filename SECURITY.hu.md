@@ -1,4 +1,4 @@
-[🇬🇧 en](SECURITY.md) | [🇭🇺 hu](SECURITY.hu.md)
+🇬🇧 [en](SECURITY.md) | 🇭🇺 [hu](SECURITY.hu.md)
 # Biztonsági házirend
 
 Ha biztonsági problémát találsz, kérlek, azonnal jelezd nekünk!
