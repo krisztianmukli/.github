@@ -1,7 +1,7 @@
 name: ❓ Question
 description: 💬 Ask a question about this project
 title: "[Question]: "
-labels: ["question", "help wanted"]
+labels: ["question"]
 body:
   - type: markdown
     attributes:

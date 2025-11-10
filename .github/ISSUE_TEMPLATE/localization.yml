@@ -1,7 +1,7 @@
 name: 🌐 Localization issue or suggestion
 description: Report a localization bug or suggest translation improvements
 title: "[Localization]: "
-labels: ["localization", "i18n", "translation"]
+labels: ["localization"]
 body:
   - type: markdown
     attributes:

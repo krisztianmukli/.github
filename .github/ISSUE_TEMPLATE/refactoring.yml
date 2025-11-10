@@ -1,7 +1,7 @@
 name: 🛠️ Code Refactoring
 description: Suggest or describe a code refactoring or optimization
 title: "[Refactor]: "
-labels: ["refactor", "technical debt"]
+labels: ["refactor"]
 body:
   - type: markdown
     attributes:

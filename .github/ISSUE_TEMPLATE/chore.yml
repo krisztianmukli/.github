@@ -1,7 +1,7 @@
 name: 🔧 Maintenance Task
 description: 📦 Suggest or report a chore or maintenance-related task
 title: "[Chore]: "
-labels: ["chore", "maintenance"]
+labels: ["maintenance"]
 body:
   - type: markdown
     attributes:
