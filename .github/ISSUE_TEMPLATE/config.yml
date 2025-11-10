@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Kérdésed van? Lépj velünk kapcsolatba!
+    url: https://github.com/<org>/<repo>/discussions
+    about: Nem biztos vagy benne, melyik sablont használd? Tegyél fel kérdést itt!
+
+  - name: 🔒 Biztonsági probléma
+    url: https://github.com/<org>/.github/blob/main/SECURITY.md
+    about: Kérjük, ne nyiss issue-t biztonsági problémával kapcsolatban, írj inkább nekünk privát csatornán.
