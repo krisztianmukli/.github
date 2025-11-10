@@ -1,3 +1,4 @@
+[🇬🇧 en](CONTRIBUTING.md) | [🇭🇺 hu](CONTRIBUTING.hu.md)
 # Közreműködési útmutató
 
 *A hibajelentések, funkciókérések és hozzájárulások minden formáját szívesen 

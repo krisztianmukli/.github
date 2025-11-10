@@ -1,3 +1,4 @@
+[🇬🇧 en](SUPPORT.md) | [🇭🇺 hu](SUPPORT.hu.md)
 # Támogatás és Segítség
 
 Segítségre van szükséged az induláshoz vagy egy projekt használatához? 

@@ -1,3 +1,4 @@
+[🇬🇧 en](SUPPORT.md) | [🇭🇺 hu](SUPPORT.hu.md)
 # Support and Help
 
 Need help getting started or using a project? Here's how.
