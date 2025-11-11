@@ -16,6 +16,7 @@ fogadjuk és bátorítjuk!* :octocat:
 - [Kód-ellenőrzés](#-kód-ellenőrzés)
 - [Kódolási stílus](#-kódolási-stílus)
 - [Eredetiségi tanúsítvány](#-eredetiségi-tanúsítvány)
+- [AI-támogatott hozzájárulások](#-ai-támogatott-hozzájárulások)
 - [Szerzők](#-szerzők)
 
 > **Ez az útmutató arra szolgál, hogy egyértelmű elvárásokat fogalmazzon meg a 
@@ -26,38 +27,39 @@ számára.**
 
 ## 📖 Magatartási kódex
 
-Kérjük, olvasd el [Magatartási kódexünket](CODE_OF_CONDUCT.hu.md). 
-Ez mindenkor érvényben van. Elvárjuk, hogy mindenki betartsa, aki hozzájárul 
-ehhez a projekthez. A seggfejként való viselkedést nem toleráljuk.
+Kérjük, olvasd el [Magatartási kódexünket](CODE_OF_CONDUCT.hu.md). Ez mindenkor 
+érvényben van. Elvárjuk, hogy mindenki betartsa, aki hozzájárul ehhez a 
+projekthez. A seggfejként való viselkedést nem toleráljuk.
 
 ## 💡 Kérdések feltevése
 
-Lásd a [Támogatási útmutatót](SUPPORT.hu.md). 
-Röviden, a GitHub Issues nem a megfelelő hely az adott projekted 
-hibakeresésére, hanem a hibák és funkciókérések bejelentésére tartjuk fenn.
+Lásd a [Támogatási útmutatót](SUPPORT.hu.md). Röviden, a GitHub Issues nem a 
+megfelelő hely az adott projekted hibakeresésére, hanem a hibák és 
+funkciókérések bejelentésére tartjuk fenn.
 
 ## 📥 Egy probléma megnyitása
 
-Mielőtt [problémát hoznál létre](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue), 
-ellenőrizd, hogy a projekt legújabb verzióját használod-e. Ha nem vagy 
-naprakész, először nézd meg, hogy a frissítés megoldja-e a problémádat.
+Mielőtt [problémát hoznál 
+létre](https://help.github.com/en/github/managing-your-work-on-github/creating-
+an-issue), ellenőrizd, hogy a projekt legújabb verzióját használod-e. Ha nem 
+vagy naprakész, először nézd meg, hogy a frissítés megoldja-e a problémádat.
 
 ### 🔒 Biztonsági problémák jelentése
 
-Tekintsd át a [Biztonsági szabályzatunkat](SECURITY.hu.md). 
-**Ne** jelents be biztonsági résről nyilvánosan hibajegyet!
+Tekintsd át a [Biztonsági szabályzatunkat](SECURITY.hu.md). **Ne** jelents be 
+biztonsági résről nyilvánosan hibajegyet!
 
 ### 🪲 Hibajelentések és egyéb problémák
 
 Egy nagyszerű módja a projekthez való hozzájárulásnak, ha részletes 
-hibajelentést küldesz, amikor problémával találkozol. Mindig nagyra értékeljük 
-a jól megírt, alapos hibajelentéseket :v:
+hibajelentést küldesz, amikor problémával találkozol. Mindig nagyra értékeljük a 
+jól megírt, alapos hibajelentéseket ✌️
 
 Röviden, mivel nagy valószínűséggel fejlesztő vagy, **nyiss egy hibajegyet, 
 amire választ szeretnél kapni**.
 
-- **Új probléma megnyitása előtt olvasd el a dokumentációt és a 
-[Támogatási útmutatót](SUPPORT.hu.md)**.
+- **Új probléma megnyitása előtt olvasd el a dokumentációt és a [Támogatási 
+útmutatót](SUPPORT.hu.md)**.
 
 - **Ne nyiss duplikált problémát!** Keresd meg a meglévő problémákat, hogy 
 megnézd, nem jelentették-e már korábban a problémád. Ha a probléma már létezik, 
@@ -65,9 +67,10 @@ megnézd, nem jelentették-e már korábban a problémád. Ha a probléma már l
 "Nekem is van ilyen problémám", ami segít a leggyakoribb problémák és kérések 
 rangsorolásában. 
 
-- **Használd inkább a [reakciók](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/)** 
-opciót, ne a hozzászólásokat, ha egyszerűen csak "+1"-et szeretnél adni egy 
-meglévő problémához.
+- **Használd inkább a 
+[reakciók](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-
+and-comments/)** opciót, ne a hozzászólásokat, ha egyszerűen csak "+1"-et 
+szeretnél adni egy meglévő problémához.
 
 - **Teljesen töltsd ki a megadott hibajelentés-sablont.** A hibajelentés-sablon 
 minden olyan információt kér, amelyre szükségünk van ahhoz, hogy gyorsan és 
@@ -76,17 +79,19 @@ Adj meg annyi információt, amennyit csak tudsz, beleértve a reprodukálás
 lépéseit, veremkövetési nyomokat, fordítóhibákat, könyvtárverziókat, operációs 
 rendszer verziókat és képernyőképeket (ha vannak ilyenek).
 
-- **Használj [GitHub-flavored Markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)**-t. Különösen a kódblokkokat és a konzol kimeneteket tedd backtickek közé (```). Ez 
-javítja az olvashatóságot.
+- **Használj [GitHub-flavored 
+Markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-
+formatting-syntax)**-t. Különösen a kódblokkokat és a konzol kimeneteket tedd 
+backtickek közé (```). Ez javítja az olvashatóságot.
 
 ## 💌 Funkció kérések
 
 Szívesen fogadjuk a funkció kéréseket! Bár minden kérést megfontolunk, nem 
-tudjuk garantálni, hogy kérésedet elfogadjuk. Szeretnénk elkerülni a 
-[feature creep](https://en.wikipedia.org/wiki/Feature_creep) jelenséget. Lehet, 
-hogy az ötleted nagyszerű, de a projekt keretein kívül esik. Ha elfogadjuk, nem 
-tudunk kötelezettséget vállalni a megvalósítás és a kiadás ütemtervét illetően. 
-Azonban szívesen látjuk, ha benyújtasz egy pull requestet, hogy segíts!
+tudjuk garantálni, hogy kérésedet elfogadjuk. Szeretnénk elkerülni a [feature 
+creep](https://en.wikipedia.org/wiki/Feature_creep) jelenséget. Lehet, hogy az 
+ötleted nagyszerű, de a projekt keretein kívül esik. Ha elfogadjuk, nem tudunk 
+kötelezettséget vállalni a megvalósítás és a kiadás ütemtervét illetően. Azonban 
+szívesen látjuk, ha benyújtasz egy pull requestet, hogy segíts!
 
 - **Ne nyiss duplikált funkcióigénylést.** Először keress rá a meglévő 
 funkcióigénylésekre. Ha találsz egy korábban kért funkciót (vagy egy nagyon 
@@ -103,20 +108,26 @@ részleteit is.
 ## 🔍 Problémák kezelése
 
 A problémák kezelése magában foglalhatja a hibajelentések reprodukálását vagy 
-további információk, például verziószámok vagy reprodukálási utasítások kérését.
-Minden segítséget, amit egy probléma gyors megoldásához nyújtani tudsz, nagyra értékelünk!
+további információk, például verziószámok vagy reprodukálási utasítások kérését. 
+Minden segítséget, amit egy probléma gyors megoldásához nyújtani tudsz, nagyra 
+értékelünk!
 
 ## 🔁 Pull Requestek benyújtása
 
-Mi **szeretjük** a pull requesteket! 
-A [tároló forkolása](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) 
-és [pull request létrehozása](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/proposing-changes-to-your-work-with-pull-requests) előtt a nem triviális 
-változtatások esetén általában az a legjobb, ha először nyitsz egy hibajegyet, 
-hogy megvitasd a változtatásokat, vagy egy meglévő hibajegy kommentjeiben 
-megbeszéled a probléma megoldására tervezett megközelítésedet.
+Mi **szeretjük** a pull requesteket! A [tároló 
+forkolása](https://help.github.com/en/github/getting-started-with-github/fork-a-
+repo) és [pull request 
+létrehozása](https://help.github.com/en/github/collaborating-with-issues-and-
+pull-requests/proposing-changes-to-your-work-with-pull-requests) előtt a nem 
+triviális változtatások esetén általában az a legjobb, ha először nyitsz egy 
+hibajegyet, hogy megvitasd a változtatásokat, vagy egy meglévő hibajegy 
+kommentjeiben megbeszéled a probléma megoldására tervezett megközelítésedet.
 
 A legtöbb hozzászólás esetén, miután az első pull requestedet elfogadták és 
-egyesítették, [meghívást kapsz a projektbe](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository) és **push access**-t kapsz. 🎉
+egyesítették, [meghívást kapsz a 
+projektbe](https://help.github.com/en/github/setting-up-and-managing-your-github
+-user-account/inviting-collaborators-to-a-personal-repository) és **push 
+access**-t kapsz. 🎉
 
 *Megjegyzés: Minden hozzájárulás a projekt licensze alatt lesz kiadva.*
 
@@ -139,31 +150,37 @@ célnak és a logikának nyilvánvalónak kell lennie egy kellően képzett fejl
 számára, ellenkező esetben adj hozzá egy magyarázó megjegyzést.
 
 - **Kövesd a meglévő kódolási stílust és konvenciókat.** Tarts a kódod 
-összhangban a kódbázis többi részének stílusával, formázásával és 
-konvencióival. Ha lehetséges, ezeket egy linterrel kényszerítjük ki. A 
-következetesség megkönnyíti a jövőbeni felülvizsgálatot és módosítást.
+összhangban a kódbázis többi részének stílusával, formázásával és konvencióival. 
+Ha lehetséges, ezeket egy linterrel kényszerítjük ki. A következetesség 
+megkönnyíti a jövőbeni felülvizsgálatot és módosítást.
 
-- **Tesztlefedettség beépítése.** Adj hozzá unit teszteket vagy UI-teszteket, 
-ha lehetséges. Kövesd a tesztek megvalósításának meglévő mintáit.
+- **Tesztlefedettség beépítése.** Adj hozzá unit teszteket vagy UI-teszteket, ha 
+lehetséges. Kövesd a tesztek megvalósításának meglévő mintáit.
 
 - **Frissítsd a példaprojektet**, ha van ilyen, hogy gyakorold a hozzáadott új 
 funkciókat.
 
-- **Adj hozzá dokumentációt.** Dokumentáljuk a változtatásokat a 
-kóddokumentáció megjegyzéseivel vagy a meglévő útmutatókban.
+- **Adj hozzá dokumentációt.** Dokumentáljuk a változtatásokat a kóddokumentáció 
+megjegyzéseivel vagy a meglévő útmutatókban.
 
-- **Frissítsd a CHANGELOG-ot** minden fejlesztésről és hibajavításról. Add meg 
-a megfelelő hibaszámot, ha létezik, és a GitHub felhasználóneved. 
-(példa: "- Fixed crash in profile view. #123 @krisztianmukli")
+- **Frissítsd a CHANGELOG-ot** minden fejlesztésről és hibajavításról. Add meg a 
+megfelelő hibaszámot, ha létezik, és a GitHub felhasználóneved. (példa: "- Fixed 
+crash in profile view. #123 @krisztianmukli")
 
 - **Használd a tároló alapértelmezett ágát.** Új ágak létrehozásához és a [pull 
-request beküldéséhez](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) mindig a kódtároló alapértelmezett ágát 
-használd. Általában ez a `main`, de lehet `dev`, `develop` vagy `master` is.
+request 
+beküldéséhez](https://help.github.com/en/github/collaborating-with-issues-and-
+pull-requests/creating-a-pull-request-from-a-fork) mindig a kódtároló 
+alapértelmezett ágát használd. Általában ez a `main`, de lehet `dev`, `develop` 
+vagy `master` is.
 
-- **[Old fel a felmerülő beolvasztási konfliktusokat](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-on-github)**.
+- **[Old fel a felmerülő beolvasztási 
+konfliktusokat](https://help.github.com/en/github/collaborating-with-issues-and-
+pull-requests/resolving-a-merge-conflict-on-github)**.
 
 - **Azonnal kezeld az esetleges CI-hibákat**. Ha a pull request-ed nem épül be 
-vagy nem megy át a teszteken, kérlek, tegyél be egy másik commitot a javításhoz. 
+vagy nem megy át a teszteken, kérlek, tegyél be egy másik commitot a 
+javításhoz. 
 
 - Amikor megjegyzéseket írsz, használj megfelelően felépített mondatokat, 
 beleértve az írásjeleket is.
@@ -172,51 +189,49 @@ beleértve az írásjeleket is.
 
 ## 📝 Commit üzenetek írása
 
-Kérlek írj [konvencionális commit üzeneteket](https://www.conventionalcommits.org).
+Kérlek írj [konvencionális commit 
+üzeneteket](https://www.conventionalcommits.org).
 
-1. Válaszd el a tárgyat a törzstől egy üres sorral.
-1. Korlátozd a tárgy sort 50 karakterre
-1. A tárgysort nagy kezdőbetűvel kezd
-1. A tárgysor ne záruljon ponttal
-1. Használj felszólító módot a tárgysorban 
-(példa: "Hálózati probléma megoldása").
-1. Körülbelül 72 karakteresre tördeld a szövegtörzset
-1. A szövegtörzset használd a **miért**, *nem a mit és hogyan* magyarázatára 
-(a kódból ez látszik!).
-1. A cím elé írd be a commit típusát. 
-(példák: "docs: Elírás javítása", "fix: Hiányzó komponens javítása").
+1. Válaszd el a tárgyat a törzstől egy üres sorral. 
+2. Korlátozd a tárgy sort 50 karakterre 
+3. A tárgysort nagy kezdőbetűvel kezd 
+4. A tárgysor ne záruljon ponttal 
+5. Használj felszólító módot a tárgysorban (példa: "Hálózati probléma megoldása"). 
+6. Körülbelül 72 karakteresre tördeld a szövegtörzset 
+7. A szövegtörzset használd a **miért**, *nem a mit és hogyan* magyarázatára (a 
+kódból ez látszik!). 
+8. A cím elé írd be a commit típusát. (példák: "docs: Elírás javítása", "fix: Hiányzó komponens javítása").
 
-```
+``` 
 type: A változtatások rövid összefoglalása 50 karakterben vagy annál rövidebben
 
-Szükség esetén adj hozzá részletesebb magyarázatot. Esetleg add meg 
-a javított probléma hátterét, stb. A szöveg törzsszövege 
-commit üzenete több bekezdésből állhat. További bekezdések 
-üres sorok után következnek, és kérjük, hogy megfelelően tömöríts is.
+Szükség esetén adj hozzá részletesebb magyarázatot. Esetleg add meg a javított 
+probléma hátterét, stb. A szöveg törzsszövege commit üzenete több bekezdésből 
+állhat. További bekezdések üres sorok után következnek, és kérjük, hogy 
+megfelelően tömöríts is.
 
-Körülbelül 72 karakterig tördeld fel a szöveget. Bizonyos kontextusokban, 
-az első sort a commit tárgyaként kezelik, és a második sor és a 
-a szöveg többi része pedig a szövegtörzs. Az összefoglalót elválasztó üres sor 
-a törzstől elválasztó rész kritikus (kivéve, ha a törzset teljesen elhagyja); 
-a különböző eszközök, mint például a `log`, `shortlog` és `rebase` 
-összekeveredhetnek ha a kettőt együtt futtatjuk.
+Körülbelül 72 karakterig tördeld fel a szöveget. Bizonyos kontextusokban, az 
+első sort a commit tárgyaként kezelik, és a második sor és a a szöveg többi 
+része pedig a szövegtörzs. Az összefoglalót elválasztó üres sor a törzstől 
+elválasztó rész kritikus (kivéve, ha a törzset teljesen elhagyja); a különböző 
+eszközök, mint például a `log`, `shortlog` és `rebase` összekeveredhetnek ha a 
+kettőt együtt futtatjuk.
 
 Magyarázd el, hogy milyen problémát old meg ez a commit. Koncentrálj arra, hogy 
 miért a változtatás, nem pedig arra, hogy hogyan vagy mit. A kód megmagyarázza 
 hogyan vagy mit. A kritikusok és a jövőbeli önmagad is elolvashatja a javítást, 
-de lehet, hogy nem értik, hogy egy adott megoldás miért került bevezetésre.
-Vannak-e mellékhatásai vagy egyéb nem intuitív következményei ennek a
+de lehet, hogy nem értik, hogy egy adott megoldás miért került bevezetésre. 
+Vannak-e mellékhatásai vagy egyéb nem intuitív következményei ennek a 
 változtatásnak? Itt a megfelelő hely, hogy elmagyarázd ezeket.
 
  - A pontok is megfelelnek
 
- - A felsoroláshoz egy kötőjelet vagy csillagot kell használni, amelyet megelőz
-   egy szóközzel, a kettő között üres sorokkal.
+ - A felsoroláshoz egy kötőjelet vagy csillagot kell használni, amelyet megelőz 
+egy szóközzel, a kettő között üres sorokkal.
 
 A végén tüntesd fel a javított vagy releváns GitHub-issue-t:
 
-Resolves: #123
-Lásd még: #456, #789
+Resolves: #123 Lásd még: #456, #789 
 ```
 
 ## ✅ Kód ellenőrzés
@@ -237,11 +252,11 @@ megsértését.
 
 ## 💅 Kódolási stílus
 
-A következetesség a legfontosabb. A módosítandó fájl és a teljes projekt 
-meglévő stílusának, formázásának és elnevezési konvencióinak követése. Ennek 
+A következetesség a legfontosabb. A módosítandó fájl és a teljes projekt meglévő 
+stílusának, formázásának és elnevezési konvencióinak követése. Ennek 
 elmulasztása elhúzódó felülvizsgálati folyamatot eredményez, amelynek során a 
-kódod felszínes aspektusainak frissítésére kell összpontosítanod, ahelyett, 
-hogy a funkcionalitást és a teljesítményt javítanád.
+kódod felszínes aspektusainak frissítésére kell összpontosítanod, ahelyett, hogy 
+a funkcionalitást és a teljesítményt javítanád.
 
 Például, ha minden privát tulajdonságot egy `_` aláhúzással jelölünk, akkor az 
 újonnan hozzáadott tulajdonságokat is ugyanígy kell jelölni. Vagy, ha a 
@@ -254,7 +269,8 @@ Ha lehetséges, a stílust és a formátumot linterrel fogjuk kikényszeríteni.
 
 ## 🏅 Eredetiségi tanúsítvány
 
-*[Fejlesztők eredetiségi tanúsítványa 1.1](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin)*
+*[Fejlesztők eredetiségi tanúsítványa 
+1.1](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin)*
 
 Azzal, hogy hozzájárulok ehhez a projekthez, tanúsítom, hogy:
 
@@ -277,6 +293,47 @@ amelyet benyújtok vele együtt, beleértve az én aláírásomat is) határozat
 ideig megmarad, és a projektnek vagy az érintett nyílt forráskódú licenc(ek)nek 
 megfelelően tovább terjeszthető.
 
+## 🤖 AI-támogatott hozzájárulások
+
+Örömmel fogadjuk az olyan hozzájárulásokat, amelyek felelősségteljesen 
+használják az AI-támogató eszközöket (például GitHub Copilot, ChatGPT, Claude, 
+Cursor stb.), az alábbi elvek betartásával:
+
+### 🧭 Felelősség
+
+A hozzájáruló **mindig a végső felelős** a beküldött kódért, dokumentációért 
+vagy egyéb tartalomért. Az AI csak eszköz – neked kell garantálnod a 
+helyességet, a licenccel való megfelelést és a minőséget.
+
+### 🔍 Átláthatóság
+
+Ha a hozzájárulás **jelentős része AI-eszközből származik változtatás nélkül**, 
+ezt **KÖTELEZŐ** jelezni. Kisebb mértékű AI-használat esetén **AJÁNLOTT** 
+jelezni a használatot, amennyiben az hasznos lehet. Egyszerű nyelvi javítások, 
+formázás vagy automatikus kiegészítés esetén **nem szükséges.**
+
+**Ajánlott formátum:**
+A commit-üzenetben vagy pull request leírásban add meg például:
+```
+Assisted-by: ChatGPT (opcionálisan hivatkozással az exportált beszélgetésre)
+Assisted-by: GitHub Copilot (opcionálisan hivatkozással az exportált beszélgetésre)
+```
+
+### ✅ Minőség és ellenőrzés
+
+Az AI-val készült kódokat ugyanazon – vagy szigorúbb – review-szabályok alapján 
+vizsgáljuk, mint a teljesen ember által írtakat. Minden beküldött tartalomért a 
+beküldőnek kell felelősséget vállalnia és megértenie annak működését.
+
+### ⚖️ Etikus használat
+
+AI-eszköz **nem használható** végső döntéshozóként, személyi vagy közösségi 
+értékelések során. Automatizált tesztelés és ellenőrzés megengedett, de az 
+elfogadást mindig ember hagyja jóvá.
+
+A beküldéssel elfogadod, hogy a hozzájárulás megfelel ezen irányelveknek, és te 
+felelsz érte.
+
 ## 🍬 [Nincs barna M&M's](https://en.wikipedia.org/wiki/Van_Halen#Contract_riders)
 
 Ha ezt olvasod, gratulálunk kedves felhasználó és (remélhetőleg) közreműködő, 
@@ -287,8 +344,19 @@ követed, **helyezd el ezt az emojit a problémád vagy pull requested tetején*
 
 ## 🙏 Szerzők
 
-A fájl eredeti példányát [@jessesquires](https://github.com/jessesquires) írta.
-Fordította és saját igényei szerint módosította [@krisztianmukli](https://github.com/krisztianmukli).
+A fájl eredeti példányát [@jessesquires](https://github.com/jessesquires) írta. 
+Fordította és saját igényei szerint módosította 
+[@krisztianmukli](https://github.com/krisztianmukli).
+
+Az [AI-támogatott hozzájárulások](#-ai-támogatott-hozzájárulások) szakasz 
+megfogalmazásához igénybe vettük a ChatGPT segítségét, amelytől azt kértük, hogy 
+készítsen egy kiegyensúlyozott, közösségi hangvételű, de formálisan is helytálló 
+"AI-támogatott hozzájárulások" szakaszt, amely a [Fedora AI-támogatott 
+hozzájárulásokra vonatkozó 
+szabályzat](https://docs.fedoraproject.org/en-US/council/policy/ai- 
+contribution-policy/) precizitását és a 
+[DigitalOcean-útmutató](https://www.digitalocean.com/community/tutorials/ai- 
+coding-tools-open-source) emberközpontúságát ötvözi.
 
 **Kérlek, bátran használd el ezt az útmutatót a saját projektjeidben. 
 Forkolhatod egészében vagy átalakíthatod a saját igényeidnek megfelelően!**

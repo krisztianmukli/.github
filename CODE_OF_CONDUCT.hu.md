@@ -10,8 +10,8 @@ tapasztalattól, oktatástól, társadalmi-gazdasági helyzettől, állampolgár
 személyes megjelenéstől, fajtól, kaszttól, bőrszíntől, vallástól, szexuális 
 identitástól és orientációtól.
 
-Vállaljuk, hogy úgy cselekszünk és viselkedünk, hogy hozzájáruljunk egy 
-nyitott, barátságos, sokszínű, befogadó és egészséges közösséghez.
+Vállaljuk, hogy úgy cselekszünk és viselkedünk, hogy hozzájáruljunk egy nyitott, 
+barátságos, sokszínű, befogadó és egészséges közösséghez.
 
 ## Szabályaink
 
@@ -23,8 +23,8 @@ közösségünkben:
 * Konstruktív visszajelzés adása és méltóságteljes elfogadása
 * Felelősségvállalás és bocsánatkérés azoktól, akiket a hibáink érintenek, és 
 tanulás a tapasztalatokból
-* Arra összpontosítva, hogy mi a legjobb nem csak nekünk, mint egyéneknek, hanem
- a közösség egészének
+* Arra összpontosítva, hogy mi a legjobb nem csak nekünk, mint egyéneknek, hanem 
+a közösség egészének
 
 Példák az elfogadhatatlan viselkedésre:
 
@@ -39,9 +39,9 @@ közzététele, az érintett kifejezett engedélye nélkül
 
 ## Kötelezettségek végrehajtása
 
-A közösség vezetői felelősek az elfogadható viselkedési szabályok tisztázásáért
+A közösség vezetői felelősek az elfogadható viselkedési szabályok tisztázásáért 
 és betartatásáért, hogy megfelelő és tisztességes korrekciós intézkedéseket 
-tegyenek minden olyan viselkedés esetén, amelyet nem megfelelőnek, fenyegetőnek,
+tegyenek minden olyan viselkedés esetén, amelyet nem megfelelőnek, fenyegetőnek, 
 sértőnek vagy károsnak tartanak.
 
 A közösség vezetőinek joguk és felelősségük, hogy eltávolítsák, szerkesszék, 
@@ -52,16 +52,16 @@ Magatartási Kódexhez és ha szükséges, közöljék moderációs döntéseik 
 ## Hatály
 
 Ez a Magatartási Kódex a közösség minden területén érvényes, és akkor is 
-érvényes, amikor az egyén nyilvános helyeken hivatalosan képviseli a közösséget.
+érvényes, amikor az egyén nyilvános helyeken hivatalosan képviseli a közösséget. 
 Például ilyen események a közösség képviseletére használt hivatalos e-mail cím 
 használata, hivatalos szociális médiafiókon keresztül történő közzétételek, 
 kijelölt képviselőként egy online vagy offline eseményen történő részvétel.
 
 ## Végrehajtás
 
-Bántalmazó, zaklató vagy általában elfogadhatatlan viselkedést a végrehajtásért
-felelős közösségi vezetőnek lehet jelenteni a(z) abuse@mukli.hu címen.
-Minden panasz azonnal tisztességesen felülvizsgálatra, és kivizsgálásra kerül.
+Bántalmazó, zaklató vagy általában elfogadhatatlan viselkedést a végrehajtásért 
+felelős közösségi vezetőnek lehet jelenteni a(z) abuse@mukli.hu címen. Minden 
+panasz azonnal tisztességesen felülvizsgálatra, és kivizsgálásra kerül.
 
 Minden közösségi vezető köteles tiszteletben tartani az incidens bejelentőjének 
 magánéletét és biztonságát.
@@ -78,8 +78,8 @@ meghatározásakor:
 szakmaiatlannak vagy nemkívánatosnak tartott viselkedés.
 
 **Következmény**: A közösség vezetőinek magánjellegű, írásbeli figyelmeztetése, 
-amely tisztázza a jogsértés jellegét, és magyarázatot ad arra, hogy a 
-viselkedés miért volt helytelen. Nyilvános bocsánatkérés is kérhető.
+amely tisztázza a jogsértés jellegét, és magyarázatot ad arra, hogy a viselkedés 
+miért volt helytelen. Nyilvános bocsánatkérés is kérhető.
 
 ### 2. Figyelmeztetés
 
@@ -87,9 +87,9 @@ viselkedés miért volt helytelen. Nyilvános bocsánatkérés is kérhető.
 sorozatán keresztül.
 
 **Következmény**: Figyelmeztetés a cselekvés folytatásának következményeire. 
-Meghatározott ideig nem léphet kapcsolatba az érintett személyekkel, beleértve 
-a Magatartási Kódex végrehajtóival való kéretlen kapcsolatba lépést is. Ez 
-magában foglalja a közösségi terekben, valamint az olyan külső csatornákon való 
+Meghatározott ideig nem léphet kapcsolatba az érintett személyekkel, beleértve a 
+Magatartási Kódex végrehajtóival való kéretlen kapcsolatba lépést is. Ez magában 
+foglalja a közösségi terekben, valamint az olyan külső csatornákon való 
 interakciók elkerülését, mint a közösségi média. Ezen feltételek megsértése 
 ideiglenes vagy végleges tiltást vonhat maga után.
 
@@ -101,9 +101,9 @@ helytelen viselkedést.
 **Következmény**: A közösséggel való bármilyen interakciótól vagy nyilvános 
 kommunikációtól való ideiglenes tiltás egy meghatározott időre. Ez alatt az 
 időszak alatt semmilyen nyilvános vagy magánjellegű interakció nem megengedett 
-az érintett személyekkel, beleértve a Magatartási Kódexet betartató 
-személyekkel való kéretlen interakciót is.
-E feltételek megszegése végleges tiltást vonhat maga után.
+az érintett személyekkel, beleértve a Magatartási Kódexet betartató személyekkel 
+való kéretlen interakciót is. E feltételek megszegése végleges tiltást vonhat 
+maga után.
 
 ### 4. Végleges tiltás
 
@@ -116,15 +116,15 @@ végleges eltiltás.
 
 ## Összegzés
 
-Ezt a Magatartási Kódexet elérheti az alábbi oldalon: 
-[Contributor Covenant][homepage], v2.1, 
+Ezt a Magatartási Kódexet elérheti az alábbi oldalon: [Contributor 
+Covenant][homepage], v2.1, 
 [https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][v2.1].
 
-A közösségi hatásra vonatkozó iránymutatásokat a 
-[Mozilla's code of conduct enforcement ladder][Mozilla CoC] inspirálta.
+A közösségi hatásra vonatkozó iránymutatásokat a [Mozilla's code of conduct 
+enforcement ladder][Mozilla CoC] inspirálta.
 
 A gyakran ismételt kérdésekre a választ a Magatartási Kódexről lásd a 
-[https://www.contributor-covenant.org/faq][FAQ] oldalon. A fordítások elérhetőek
+[https://www.contributor-covenant.org/faq][FAQ] oldalon. A fordítások elérhetőek 
 a [https://www.contributor-covenant.org/translations][translations] oldalon.
 
 [homepage]: https://www.contributor-covenant.org
