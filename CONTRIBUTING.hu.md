@@ -39,9 +39,9 @@ funkciókérések bejelentésére tartjuk fenn.
 
 ## 📥 Egy probléma megnyitása
 
-Mielőtt [problémát hoznál 
-létre](https://help.github.com/en/github/managing-your-work-on-github/creating-
-an-issue), ellenőrizd, hogy a projekt legújabb verzióját használod-e. Ha nem 
+Mielőtt 
+[problémát hoznál létre](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue), 
+ellenőrizd, hogy a projekt legújabb verzióját használod-e. Ha nem 
 vagy naprakész, először nézd meg, hogy a frissítés megoldja-e a problémádat.
 
 ### 🔒 Biztonsági problémák jelentése
@@ -58,8 +58,8 @@ jól megírt, alapos hibajelentéseket ✌️
 Röviden, mivel nagy valószínűséggel fejlesztő vagy, **nyiss egy hibajegyet, 
 amire választ szeretnél kapni**.
 
-- **Új probléma megnyitása előtt olvasd el a dokumentációt és a [Támogatási 
-útmutatót](SUPPORT.hu.md)**.
+- **Új probléma megnyitása előtt olvasd el a dokumentációt és a 
+[Támogatási útmutatót](SUPPORT.hu.md)**.
 
 - **Ne nyiss duplikált problémát!** Keresd meg a meglévő problémákat, hogy 
 megnézd, nem jelentették-e már korábban a problémád. Ha a probléma már létezik, 
@@ -68,8 +68,8 @@ megnézd, nem jelentették-e már korábban a problémád. Ha a probléma már l
 rangsorolásában. 
 
 - **Használd inkább a 
-[reakciók](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-
-and-comments/)** opciót, ne a hozzászólásokat, ha egyszerűen csak "+1"-et 
+[reakciók](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/)** 
+opciót, ne a hozzászólásokat, ha egyszerűen csak "+1"-et 
 szeretnél adni egy meglévő problémához.
 
 - **Teljesen töltsd ki a megadott hibajelentés-sablont.** A hibajelentés-sablon 
@@ -79,19 +79,19 @@ Adj meg annyi információt, amennyit csak tudsz, beleértve a reprodukálás
 lépéseit, veremkövetési nyomokat, fordítóhibákat, könyvtárverziókat, operációs 
 rendszer verziókat és képernyőképeket (ha vannak ilyenek).
 
-- **Használj [GitHub-flavored 
-Markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-
-formatting-syntax)**-t. Különösen a kódblokkokat és a konzol kimeneteket tedd 
+- **Használj 
+[GitHub-flavored Markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)**-t. 
+Különösen a kódblokkokat és a konzol kimeneteket tedd 
 backtickek közé (```). Ez javítja az olvashatóságot.
 
 ## 💌 Funkció kérések
 
 Szívesen fogadjuk a funkció kéréseket! Bár minden kérést megfontolunk, nem 
-tudjuk garantálni, hogy kérésedet elfogadjuk. Szeretnénk elkerülni a [feature 
-creep](https://en.wikipedia.org/wiki/Feature_creep) jelenséget. Lehet, hogy az 
-ötleted nagyszerű, de a projekt keretein kívül esik. Ha elfogadjuk, nem tudunk 
-kötelezettséget vállalni a megvalósítás és a kiadás ütemtervét illetően. Azonban 
-szívesen látjuk, ha benyújtasz egy pull requestet, hogy segíts!
+tudjuk garantálni, hogy kérésedet elfogadjuk. Szeretnénk elkerülni a 
+[feature creep](https://en.wikipedia.org/wiki/Feature_creep) jelenséget. Lehet, 
+hogy az ötleted nagyszerű, de a projekt keretein kívül esik. Ha elfogadjuk, nem 
+tudunk kötelezettséget vállalni a megvalósítás és a kiadás ütemtervét illetően. 
+Azonban szívesen látjuk, ha benyújtasz egy pull requestet, hogy segíts!
 
 - **Ne nyiss duplikált funkcióigénylést.** Először keress rá a meglévő 
 funkcióigénylésekre. Ha találsz egy korábban kért funkciót (vagy egy nagyon 
@@ -114,20 +114,19 @@ Minden segítséget, amit egy probléma gyors megoldásához nyújtani tudsz, na
 
 ## 🔁 Pull Requestek benyújtása
 
-Mi **szeretjük** a pull requesteket! A [tároló 
-forkolása](https://help.github.com/en/github/getting-started-with-github/fork-a-
-repo) és [pull request 
-létrehozása](https://help.github.com/en/github/collaborating-with-issues-and-
-pull-requests/proposing-changes-to-your-work-with-pull-requests) előtt a nem 
-triviális változtatások esetén általában az a legjobb, ha először nyitsz egy 
-hibajegyet, hogy megvitasd a változtatásokat, vagy egy meglévő hibajegy 
-kommentjeiben megbeszéled a probléma megoldására tervezett megközelítésedet.
+Mi **szeretjük** a pull requesteket! A 
+[tároló forkolása](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) 
+és 
+[pull request létrehozása](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/proposing-changes-to-your-work-with-pull-requests) 
+előtt a nem triviális változtatások esetén általában az a legjobb, ha először 
+nyitsz egy hibajegyet, hogy megvitasd a változtatásokat, vagy egy meglévő 
+hibajegy kommentjeiben megbeszéled a probléma megoldására tervezett 
+megközelítésedet.
 
 A legtöbb hozzászólás esetén, miután az első pull requestedet elfogadták és 
-egyesítették, [meghívást kapsz a 
-projektbe](https://help.github.com/en/github/setting-up-and-managing-your-github
--user-account/inviting-collaborators-to-a-personal-repository) és **push 
-access**-t kapsz. 🎉
+egyesítették, 
+[meghívást kapsz a projektbe](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository) 
+és **push access**-t kapsz. 🎉
 
 *Megjegyzés: Minden hozzájárulás a projekt licensze alatt lesz kiadva.*
 
@@ -167,16 +166,12 @@ megjegyzéseivel vagy a meglévő útmutatókban.
 megfelelő hibaszámot, ha létezik, és a GitHub felhasználóneved. (példa: "- Fixed 
 crash in profile view. #123 @krisztianmukli")
 
-- **Használd a tároló alapértelmezett ágát.** Új ágak létrehozásához és a [pull 
-request 
-beküldéséhez](https://help.github.com/en/github/collaborating-with-issues-and-
-pull-requests/creating-a-pull-request-from-a-fork) mindig a kódtároló 
-alapértelmezett ágát használd. Általában ez a `main`, de lehet `dev`, `develop` 
-vagy `master` is.
+- **Használd a tároló alapértelmezett ágát.** Új ágak létrehozásához és a 
+[pull request beküldéséhez](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) 
+mindig a kódtároló alapértelmezett ágát használd. Általában ez a `main`, de 
+lehet `dev`, `develop` vagy `master` is.
 
-- **[Old fel a felmerülő beolvasztási 
-konfliktusokat](https://help.github.com/en/github/collaborating-with-issues-and-
-pull-requests/resolving-a-merge-conflict-on-github)**.
+- **[Old fel a felmerülő beolvasztási konfliktusokat](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-on-github)**.
 
 - **Azonnal kezeld az esetleges CI-hibákat**. Ha a pull request-ed nem épül be 
 vagy nem megy át a teszteken, kérlek, tegyél be egy másik commitot a 
@@ -189,18 +184,17 @@ beleértve az írásjeleket is.
 
 ## 📝 Commit üzenetek írása
 
-Kérlek írj [konvencionális commit 
-üzeneteket](https://www.conventionalcommits.org).
+Kérlek írj 
+[konvencionális commit üzeneteket](https://www.conventionalcommits.org).
 
 1. Válaszd el a tárgyat a törzstől egy üres sorral. 
-2. Korlátozd a tárgy sort 50 karakterre 
-3. A tárgysort nagy kezdőbetűvel kezd 
-4. A tárgysor ne záruljon ponttal 
-5. Használj felszólító módot a tárgysorban (példa: "Hálózati probléma megoldása"). 
-6. Körülbelül 72 karakteresre tördeld a szövegtörzset 
-7. A szövegtörzset használd a **miért**, *nem a mit és hogyan* magyarázatára (a 
-kódból ez látszik!). 
-8. A cím elé írd be a commit típusát. (példák: "docs: Elírás javítása", "fix: Hiányzó komponens javítása").
+1. Korlátozd a tárgy sort 50 karakterre 
+1. A tárgysort nagy kezdőbetűvel kezd 
+1. A tárgysor ne záruljon ponttal 
+1. Használj felszólító módot a tárgysorban (példa: "Hálózati probléma megoldása"). 
+1. Körülbelül 72 karakteresre tördeld a szövegtörzset 
+1. A szövegtörzset használd a **miért**, *nem a mit és hogyan* magyarázatára (a kódból ez látszik!). 
+1. A cím elé írd be a commit típusát. (példák: "docs: Elírás javítása", "fix: Hiányzó komponens javítása").
 
 ``` 
 type: A változtatások rövid összefoglalása 50 karakterben vagy annál rövidebben
@@ -269,8 +263,7 @@ Ha lehetséges, a stílust és a formátumot linterrel fogjuk kikényszeríteni.
 
 ## 🏅 Eredetiségi tanúsítvány
 
-*[Fejlesztők eredetiségi tanúsítványa 
-1.1](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin)*
+*[Fejlesztők eredetiségi tanúsítványa 1.1](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin)*
 
 Azzal, hogy hozzájárulok ehhez a projekthez, tanúsítom, hogy:
 
@@ -351,12 +344,11 @@ Fordította és saját igényei szerint módosította
 Az [AI-támogatott hozzájárulások](#-ai-támogatott-hozzájárulások) szakasz 
 megfogalmazásához igénybe vettük a ChatGPT segítségét, amelytől azt kértük, hogy 
 készítsen egy kiegyensúlyozott, közösségi hangvételű, de formálisan is helytálló 
-"AI-támogatott hozzájárulások" szakaszt, amely a [Fedora AI-támogatott 
-hozzájárulásokra vonatkozó 
-szabályzat](https://docs.fedoraproject.org/en-US/council/policy/ai- 
-contribution-policy/) precizitását és a 
-[DigitalOcean-útmutató](https://www.digitalocean.com/community/tutorials/ai- 
-coding-tools-open-source) emberközpontúságát ötvözi.
+"AI-támogatott hozzájárulások" szakaszt, amely a 
+[Fedora AI-támogatott hozzájárulásokra vonatkozó szabályzat](https://docs.fedoraproject.org/en-US/council/policy/ai-contribution-policy/) 
+precizitását és a 
+[DigitalOcean-útmutató](https://www.digitalocean.com/community/tutorials/ai-coding-tools-open-source) 
+emberközpontúságát ötvözi.
 
 **Kérlek, bátran használd el ezt az útmutatót a saját projektjeidben. 
 Forkolhatod egészében vagy átalakíthatod a saját igényeidnek megfelelően!**
