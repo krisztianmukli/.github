@@ -1,4 +1,4 @@
-🇬🇧 [en](CONTRIBUTING.md) | 🇭🇺 [hu](CONTRIBUTING.md)
+🇬🇧 [en](CONTRIBUTING.md) | 🇭🇺 [hu](CONTRIBUTING.hu.md)
 # Contributing Guidelines
 
 *Pull requests, bug reports, and all other forms of contribution are welcomed 
@@ -38,10 +38,9 @@ filing bugs and feature requests.
 
 ## 📥 Opening an Issue
 
-Before [creating an 
-issue](https://help.github.com/en/github/managing-your-work-on-github/creating-
-an-issue), check if you are using the latest version of the project. If you are 
-not up-to-date, see if updating fixes your issue first.
+Before [creating an issue](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue), 
+check if you are using the latest version of the project. If you are not 
+up-to-date, see if updating fixes your issue first.
 
 ### 🔒 Reporting Security Issues
 
@@ -66,8 +65,8 @@ additional information you have. You may simply note "I have this problem too",
 which helps prioritize the most common problems and requests. 
 
 - **Prefer using 
-[reactions](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues
--and-comments/)**, not comments, if you simply want to "+1" an existing issue.
+[reactions](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/)**,
+not comments, if you simply want to "+1" an existing issue.
 
 - **Fully complete the provided issue template.** The bug report template 
 requests all the information we need to quickly and efficiently address your 
@@ -75,9 +74,8 @@ issue. Be clear, concise, and descriptive. Provide as much information as you
 can, including steps to reproduce, stack traces, compiler errors, library 
 versions, OS versions, and screenshots (if applicable).
 
-- **Use [GitHub-flavored 
-Markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-
-formatting-syntax).** Especially put code blocks and console outputs in 
+- **Use [GitHub-flavored Markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).** 
+Especially put code blocks and console outputs in 
 backticks (```). This improves readability.
 
 ## 💌 Feature Requests
@@ -107,19 +105,14 @@ Any help you can provide to quickly resolve an issue is very much appreciated!
 
 ## 🔁 Submitting Pull Requests
 
-We **love** pull requests! Before [forking the 
-repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) 
-and [creating a pull 
-request](https://help.github.com/en/github/collaborating-with-issues-and-pull-
-requests/proposing-changes-to-your-work-with-pull-requests) for non-trivial 
+We **love** pull requests! Before [forking the repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) 
+and [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/proposing-changes-to-your-work-with-pull-requests) for non-trivial 
 changes, it is usually best to first open an issue to discuss the changes, or 
 discuss your intended approach for solving the problem in the comments for an 
 existing issue.
 
 For most contributions, after your first pull request is accepted and merged, 
-you will be [invited to the 
-project](https://help.github.com/en/github/setting-up-and-managing-your-github-
-user-account/inviting-collaborators-to-a-personal-repository) and given **push 
+you will be [invited to the project](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository) and given **push 
 access**. 🎉
 
 *Note: All contributions will be licensed under the project's license.*
@@ -159,14 +152,10 @@ existing guides.
 corresponding issue number if one exists, and your GitHub username. (example: "- 
 Fixed crash in profile view. #123 @jessesquires")
 
-- **Use the repo's default branch.** Branch from and [submit your pull 
-request](https://help.github.com/en/github/collaborating-with-issues-and-pull-
-requests/creating-a-pull-request-from-a-fork) to the repo's default branch. 
+- **Use the repo's default branch.** Branch from and [submit your pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) to the repo's default branch. 
 Usually this is `main`, but it could be `dev`, `develop`, or `master`.
 
-- **[Resolve any merge 
-conflicts](https://help.github.com/en/github/collaborating-with-issues-and-pull-
-requests/resolving-a-merge-conflict-on-github)** that occur.
+- **[Resolve any merge conflicts](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-on-github)** that occur.
 
 - **Promptly address any CI failures**. If your pull request fails to build or 
 pass tests, please push another commit to fix it. 
@@ -178,8 +167,7 @@ punctuation.
 
 ## 📝 Writing Commit Messages
 
-Please write [conventional commit 
-messages](https://www.conventionalcommits.org).
+Please write [conventional commit messages](https://www.conventionalcommits.org).
 
 1. Separate subject from body with a blank line
 2. Limit the subject line to 50 characters
@@ -255,8 +243,7 @@ When possible, style and format will be enforced with a linter.
 
 ## 🏅 Certificate of Origin
 
-*[Developer's Certificate of Origin 
-1.1](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin)*
+*[Developer's Certificate of Origin 1.1](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin)*
 
 By making a contribution to this project, I certify that:
 
@@ -336,11 +323,8 @@ Translated and edited by [@krisztianmukli](https://github.com/krisztianmukli).
 The wording of the [AI-Assisted Contributions](#-ai-assisted-contributions) 
 section was created with the help of ChatGPT, which we asked to produce a 
 balanced, community-friendly, yet formally sound "AI-Assisted Contributions" 
-section that combines the precision of the [Fedora AI-Assisted Contributions 
-Policy](https://docs.fedoraproject.org/en-US/council/policy/ai-contribution- 
-policy/) with the human-centered approach of the [DigitalOcean 
-tutorial](https://www.digitalocean.com/community/tutorials/ai-coding-tools-open- 
-source).
+section that combines the precision of the [Fedora AI-Assisted Contributions Policy](https://docs.fedoraproject.org/en-US/council/policy/ai-contribution-policy/) 
+with the human-centered approach of the [DigitalOcean tutorial](https://www.digitalocean.com/community/tutorialsai-coding-tools-open-source).
 
 **Please feel free to adopt this guide in your own projects. Fork it wholesale 
 or remix it for your needs.**
