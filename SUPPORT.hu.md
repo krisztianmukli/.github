@@ -1,17 +1,21 @@
 🇬🇧 [en](SUPPORT.md) | 🇭🇺 [hu](SUPPORT.hu.md)
 # Támogatás és Segítség
 
-Segítségre van szükséged az induláshoz vagy egy projekt használatához? Itt 
+Segítségre van szükséged az induláshoz vagy a projekt használatához? Itt 
 olvashatod, hogyan kaphatsz segítséget.
 
 ## Hogyan kaphatsz segítséget
 
-Általában nem használjuk a GitHubot támogatási fórumként. Bármilyen használati 
-kérdés esetén amelyek nem magára a projektre vonatkoznak, kérdezz inkább a 
-[Stack Overflow](https://stackoverflow.com)n. Így nagyobb valószínűséggel 
-találsz megoldást a problémádra, és lehetővé teszed, hogy más is, akinek ugyanez 
-a kérdése, megtalálja a választ. Ez a karbantartóknak is lehetővé teszi, hogy a 
-projekt fejlesztésére koncentrálhassanak.
+A **GitHub Discussions** a legjobb hely a projekthez kapcsolódó kérdésekhez, 
+javaslatokhoz vagy ötletekhez. Kérlek, ellenőrizd előtte, hogy a kérdésedet már 
+nem válaszolták-e meg.
+
+Bármilyen használati kérdés esetén amelyek **nem magára a projektre** 
+vonatkoznak, kérdezz inkább a [Stack Overflow](https://stackoverflow.com)n. 
+Így nagyobb valószínűséggel találsz megoldást a problémádra, és lehetővé 
+teszed, hogy más is, akinek ugyanez a kérdése, megtalálja a választ. Ez a 
+karbantartóknak is lehetővé teszi, hogy a projekt fejlesztésére 
+koncentrálhassanak.
 
 A következő módon kérhetsz támogatást:
 
@@ -20,10 +24,9 @@ tudod-e oldani egyedül. Ezek általában a projekt gyökerében a `docs/` mapp�
 találhatóak. Ha van példaprojekt, akkor vizsgáld meg, hogy megtudd, hogyan 
 működik, hátha ez megválaszolja a kérdésed.
 
-1. 💡 **Keress válaszokat, vagy tegyél fel kérdéseket a [Stack 
-Overflow](https://stackoverflow.com) weboldalon**. Ez a legmegfelelőbb hely a 
-projekt használatára jellemző hibakeresésre, vagy a projekt speciális 
-használatának kitalálására. 
+1. 💡 **Keress válaszokat, vagy tegyél fel kérdéseket a projekt Discussions 
+oldalán**. Ez a legmegfelelőbb hely a projekt használatára jellemző hibakeresésre, 
+vagy a projekt speciális használatának kitalálására. 
 
 1. 📝 **Végső megoldásként** nyithatsz egy GitHub hibajegyet, hogy segítséget 
 kérj. Ara kérünk, világosan magyarázd el, hogy mit próbáltál tenni és sorold fel 
