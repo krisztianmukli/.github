@@ -1,0 +1,75 @@
+name: 🛠️ Bugfix / Refactor
+description: 🐛 Fix a bug or refactor existing code
+title: "[Bugfix/Refactor]: "
+labels: ["bug", "refactor"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🛠 Thanks for submitting a bugfix or refactor! Please fill out the following fields.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📜 Guidelines
+      description: By submitting this PR, you agree to follow our [Contributing Guidelines](https://github.com/krisztianmukli/.github/blob/main/CONTRIBUTING.md).
+      options:
+        - label: ✅ I agree to follow this project's Contributing Guidelines
+          required: true
+
+  - type: dropdown
+    id: pr-type
+    attributes:
+      label: 🏷️ PR Type
+      description: What type of PR is this?
+      options:
+        - 🐛 Bugfix
+        - 🛠 Refactor
+      multiple: false
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 📝 Summary
+      description: Brief description of what was fixed or refactored.
+      placeholder: Required
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🔍 Problem Description
+      description: Describe the issue or code problem.
+      placeholder: Optional
+    validations:
+      required: false
+
+  - type: textarea
+    id: changes
+    attributes:
+      label: 📝 Changes
+      description: What files or modules changed and why.
+      placeholder: Required
+    validations:
+      required: true
+
+  - type: textarea
+    id: testing
+    attributes:
+      label: 🔎 Testing
+      description: How did you verify this fix or refactor?
+      placeholder: List tests performed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Additional Notes
+      description: Any extra context or notes for reviewers.
+      placeholder: Optional
+    validations:
+      required: false

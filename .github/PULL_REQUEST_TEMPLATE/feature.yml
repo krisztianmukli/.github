@@ -1,0 +1,97 @@
+name: ✨ Feature / Enhancement
+description: 💡 Add a new feature or improve existing functionality
+title: "[Feature]: 🚀"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        👋 Thanks for contributing a feature! Please fill out the following fields to help us understand your request.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📜 Guidelines
+      description: By submitting this PR, you agree to follow our [Contributing Guidelines](https://github.com/krisztianmukli/.github/blob/main/CONTRIBUTING.md).
+      options:
+        - label: ✅ I agree to follow this project's Contributing Guidelines
+          required: true
+
+  - type: dropdown
+    id: feature-type
+    attributes:
+      label: 🆕 Feature Type
+      description: Is this a completely new feature or an enhancement?
+      options:
+        - ✨ New feature
+        - 🔁 Enhancement of existing feature
+      multiple: false
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feature-category
+    attributes:
+      label: 🧭 Feature Category
+      description: Which area of the project does this affect?
+      options:
+        - 🎨 UI / UX
+        - 🔧 Core functionality
+        - 🔌 API / Integration
+        - 🗃️ Data handling / Storage
+        - 🌍 Internationalization / Localization
+        - 🚀 Performance improvement
+        - 🔐 Security enhancement
+        - 📖 Documentation
+        - ⚙️ Configuration / Setup
+        - 🧪 Testing / QA
+        - 🔄 Developer tooling
+        - ❓ Other
+      multiple: false
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: ✍️ Feature Description
+      description: Describe the feature or improvement.
+      placeholder: What should be added or improved?
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🛠 Problem
+      description: What problem does this feature solve?
+      placeholder: Optional
+    validations:
+      required: false
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 🧠 Suggested Solution
+      description: How should this feature work?
+      placeholder: Optional
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Alternatives Considered
+      description: Any other solutions considered?
+      placeholder: Optional
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Additional Context
+      description: Any screenshots, examples, or notes for reviewers?
+      placeholder: Optional
+    validations:
+      required: false

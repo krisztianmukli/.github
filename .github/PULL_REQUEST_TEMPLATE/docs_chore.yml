@@ -1,0 +1,67 @@
+name: 📝 Docs / 🔧 Chore / 🌐 Localization
+description: Update documentation, perform maintenance, or improve localization
+title: "[Docs/Chore/Localization]: "
+labels: ["documentation", "maintenance", "localization"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        📝 Thanks for contributing! Use this PR template for docs updates, maintenance tasks, or localization improvements.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📜 Guidelines
+      description: By submitting this PR, you agree to follow our [Contributing Guidelines](https://github.com/krisztianmukli/.github/blob/main/CONTRIBUTING.md).
+      options:
+        - label: ✅ I agree to follow this project's Contributing Guidelines
+          required: true
+
+  - type: dropdown
+    id: pr-type
+    attributes:
+      label: 🏷️ PR Type
+      description: Type of change
+      options:
+        - 📝 Documentation
+        - 🔧 Chore / Maintenance
+        - 🌐 Localization
+      multiple: false
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 📝 Summary
+      description: Brief description of the change
+      placeholder: Required
+    validations:
+      required: true
+
+  - type: textarea
+    id: changes
+    attributes:
+      label: 📝 Changes
+      description: Which files, sections, or translations were updated and why
+      placeholder: Required
+    validations:
+      required: true
+
+  - type: textarea
+    id: testing
+    attributes:
+      label: 🔎 Testing / Verification
+      description: How did you verify the change?
+      placeholder: Manual review, formatting, linting, or other checks
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Additional Context
+      description: Any extra info, screenshots, or links for reviewers
+      placeholder: Optional
+    validations:
+      required: false
