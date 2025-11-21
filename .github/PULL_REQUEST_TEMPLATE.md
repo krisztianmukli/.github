@@ -1,16 +1,48 @@
-# 🚀 Pull Request
+Thank you for your contribution! Please fill out the relevant sections below to help reviewers understand your changes.
 
-Thank you for your contribution! 
+<!-- Uncomment ONLY the section that matches your PR type. Leave others commented. -->
 
-1. Please switch to the **Preview tab** and choose a pull request template according to the type of your contribution.
-2. The pull request creation process will then restart with the chosen template.
-3. Please fill out the information below to help reviewers understand your changes.
+<!--
+## ✨ Feature / Enhancement
+💡 **Fill this section only if your PR introduces a new feature or enhancement**
+- **Summary:** What new feature or improvement does this PR introduce?  
+- **Motivation:** Why is this feature needed? What problem does it solve?  
+- **Changes:** Describe the changes you made.
+-->
 
+<!--
+## 🐛 Bugfix / 🛠 Refactor
+🐞 **Fill this section only if your PR fixes a bug or refactors code**
+- **Summary:** What issue does this fix, or what code is being refactored?  
+- **Problem:** What was wrong or needed improvement?  
+- **Changes:** Describe what changed and why.
+-->
 
-## ⚠️ Choose Template
+<!--
+## 📝 Documentation / 🔧 Chore / 🌐 Localization
+📚 **Fill this section only if your PR updates documentation, performs maintenance, or improves localization**
+- **Summary:** What update does this PR introduce?  
+- **Changes:** Which files or sections were updated and why?
+-->
 
-- ✨ [Feature / Enhancement](?template=feature.md)  
-- 🐛 [Bugfix / Refactor](?template=bugfix_refactor.md)  
-- 📝 [Docs / Chore / Localization](?template=docs_chore.md)
+## 🔄 Current Behavior
+<!-- Describe the current behavior that you are modifying, or link to a relevant issue -->
+Closes: N/A
 
-> Note: The links only work in **Preview mode**.
+## 🌟 New Behavior
+<!-- Describe the behavior or changes that are being added by this PR -->
+
+## 📸 Demo
+<!-- Optional: add screenshots or a video demonstration if relevant -->
+
+## 🧪 Testing
+<!-- Describe how you tested your changes -->
+
+- [ ] ✅ Added/updated tests  
+- [ ] ⚙️ Manual testing  
+- [ ] 👀 Manual review  
+- [ ] 🎨 Formatting / linting checks  
+- [ ] 📝 Other  
+
+## 📎 Additional Notes
+<!-- Optional: any extra information, context, or references -->
