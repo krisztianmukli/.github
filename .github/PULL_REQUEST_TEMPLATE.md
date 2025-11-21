@@ -1,62 +1,16 @@
-# Pull Request
+# 🚀 Pull Request
 
-Thank you for contributing!  
-Please provide the necessary information so the reviewers can understand and verify your changes.
+Thank you for your contribution! 
 
----
+1. Please switch to the **Preview tab** and choose a pull request template according to the type of your contribution.
+2. The pull request creation process will then restart with the chosen template.
+3. Please fill out the information below to help reviewers understand your changes.
 
-## 🔍 Overview
 
-**What does this PR do?**  
-_A brief summary of the changes._
+## ⚠️ Choose Template
 
----
+- ✨ [Feature / Enhancement](?template=feature.md)  
+- 🐛 [Bugfix / Refactor](?template=bugfix_refactor.md)  
+- 📝 [Docs / Chore / Localization](?template=docs_chore.md)
 
-## 🧭 PR Type  
-(Choose the most fitting category)
-
-- [ ] ✨ Feature / Enhancement  
-- [ ] 🐛 Bugfix  
-- [ ] 📝 Documentation  
-- [ ] 🔧 Chore / Maintenance  
-- [ ] 🌐 Localization  
-- [ ] 🛠 Refactor  
-- [ ] 🧪 Tests  
-- [ ] Other  
-
----
-
-## 📜 Description
-
-_Describe the changes you made and why._
-
----
-
-## 💡 Related Issues / Links  
-(If applicable)
-
-- Closes #  
-- Related to #
-
----
-
-## 🧪 Testing
-
-_How did you test these changes?_
-
-- [ ] Unit tests  
-- [ ] Manual testing  
-- [ ] Not applicable  
-
----
-
-## 📸 Screenshots / Additional Notes  
-(Optional)
-
----
-
-> ℹ️ Looking for a more specific template?  
-> You can select one when opening your pull request:
-> - ✨ [Feature](?template=feature.md)  
-> - 🐛 [Bugfix / Refactor](?template=bugfix_refactor.md)  
-> - 📝 [Documentation / Chore / Localization](?template=docs_chore.md)  
+> Note: The links only work in **Preview mode**.
