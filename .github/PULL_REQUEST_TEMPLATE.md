@@ -57,6 +57,12 @@ _How did you test these changes?_
 
 > ℹ️ Looking for a more specific template?  
 > You can select one when opening your pull request:
-> - ✨ Feature  
-> - 🐛 Bugfix / Refactor  
-> - 📝 Documentation / Chore / Localization  
+<<<<<<< HEAD
+> - ✨ [Feature](.github/PULL_REQUEST_TEMPLATE/feature.md)  
+> - 🐛 [Bugfix / Refactor](.github/PULL_REQUEST_TEMPLATE/bugfix_refactor.md)  
+> - 📝 [Documentation / Chore / Localization](.github/PULL_REQUEST_TEMPLATE/docs_chore.md)  
+=======
+> - ✨ [Feature](?template=feature.md)  
+> - 🐛 [Bugfix / Refactor](?template=bugfix_refactor.md)  
+> - 📝 [Documentation / Chore / Localization](?template=docs_chore.md)  
+>>>>>>> efaa5c3 (bugfix: Fix links in main pull request template)
