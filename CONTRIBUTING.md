@@ -271,6 +271,11 @@ submit with it, including my sign-off) is maintained indefinitely and may be
 redistributed consistent with this project or the open source license(s) 
 involved.
 
+**Please** include a `Signed-off-by:` line at the end of your commit message, in 
+accordance with the rules of the [Developer Certificate of 
+Origin](https://developercertificate.org). This is not mandatory, but it greatly 
+facilitates the transparent management of contributions.
+
 ## 🤖 AI-Assisted Contributions
 
 We welcome contributions that make responsible use of AI-assisted tools (such as 

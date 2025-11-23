@@ -286,6 +286,11 @@ amelyet benyújtok vele együtt, beleértve az én aláírásomat is) határozat
 ideig megmarad, és a projektnek vagy az érintett nyílt forráskódú licenc(ek)nek 
 megfelelően tovább terjeszthető.
 
+**Kérjük**, hogy a commit üzenet végén adj meg egy `Signed-off-by:` sort is a 
+[Developer Certificate of Origin](https://developercertificate.org) szabályai 
+szerint. Ez nem kötelező, de nagyban megkönnyíti a hozzájárulások eredetének 
+átlátható kezelését.
+
 ## 🤖 AI-támogatott hozzájárulások
 
 Örömmel fogadjuk az olyan hozzájárulásokat, amelyek felelősségteljesen 
