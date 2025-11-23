@@ -338,6 +338,7 @@ section that combines the precision of the
 [Fedora AI-Assisted Contributions Policy](https://docs.fedoraproject.org/en-US/council/policy/ai-contribution-policy/) 
 with the human-centered approach of the 
 [DigitalOcean tutorial](https://www.digitalocean.com/community/tutorialsai-coding-tools-open-source).
+Harmonizing with DCO using by Google Gemini.
 
 **Please feel free to adopt this guide in your own projects. Fork it wholesale 
 or remix it for your needs.**

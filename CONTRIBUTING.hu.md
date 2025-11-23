@@ -352,7 +352,8 @@ készítsen egy kiegyensúlyozott, közösségi hangvételű, de formálisan is 
 [Fedora AI-támogatott hozzájárulásokra vonatkozó szabályzat](https://docs.fedoraproject.org/en-US/council/policy/ai-contribution-policy/) 
 precizitását és a 
 [DigitalOcean-útmutató](https://www.digitalocean.com/community/tutorials/ai-coding-tools-open-source) 
-emberközpontúságát ötvözi.
+emberközpontúságát ötvözi. A Google Geminivel harmonizáltuk az Etikai 
+Tanúsítvánnyal.
 
 **Kérlek, bátran használd el ezt az útmutatót a saját projektjeidben. 
 Forkolhatod egészében vagy átalakíthatod a saját igényeidnek megfelelően!**
