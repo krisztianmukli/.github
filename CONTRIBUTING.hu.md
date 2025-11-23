@@ -9,7 +9,7 @@ fogadjuk és bátorítjuk!* :octocat:
 - [Magatartási kódex](#-magatartási-kódex)
 - [Kérdések feltevése](#-kérdések-feltevése)
 - [Egy probléma megnyitása](#-egy-probléma-megnyitása)
-- [Funkció-kérések](#-funkció-kérések)
+- [Funkciókérések](#-funkciókérések)
 - [Problémák kezelése](#-problémák-kezelése)
 - [Pull Requestek benyújtása](#-pull-requestek-benyújtása)
 - [Commit üzenetek írása](#-commit-üzenetek-írása)
@@ -84,9 +84,9 @@ rendszer verziókat és képernyőképeket (ha vannak ilyenek).
 Különösen a kódblokkokat és a konzol kimeneteket tedd 
 backtickek közé (```). Ez javítja az olvashatóságot.
 
-## 💌 Funkció kérések
+## 💌 Funkciókérések
 
-Szívesen fogadjuk a funkció kéréseket! Bár minden kérést megfontolunk, nem 
+Szívesen fogadjuk a funkciókéréseket! Bár minden kérést megfontolunk, nem 
 tudjuk garantálni, hogy kérésedet elfogadjuk. Szeretnénk elkerülni a 
 [feature creep](https://en.wikipedia.org/wiki/Feature_creep) jelenséget. Lehet, 
 hogy az ötleted nagyszerű, de a projekt keretein kívül esik. Ha elfogadjuk, nem 
@@ -205,7 +205,7 @@ probléma hátterét, stb. A szöveg törzsszövege commit üzenete több bekezd
 megfelelően tömöríts is.
 
 Körülbelül 72 karakterig tördeld fel a szöveget. Bizonyos kontextusokban, az 
-első sort a commit tárgyaként kezelik, és a második sor és a a szöveg többi 
+első sort a commit tárgyaként kezelik, és a második sor és a szöveg többi 
 része pedig a szövegtörzs. Az összefoglalót elválasztó üres sor a törzstől 
 elválasztó rész kritikus (kivéve, ha a törzset teljesen elhagyja); a különböző 
 eszközök, mint például a `log`, `shortlog` és `rebase` összekeveredhetnek ha a 
