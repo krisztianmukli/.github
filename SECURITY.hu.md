@@ -11,6 +11,10 @@ biztonsági rések
 [felelősségteljesen](https://en.wikipedia.org/wiki/Responsible_disclosure) 
 nyilvánosságra hozhatók legyenek az érintett felek számára.
 
+**Adatvédelem:** A bejelentés során megadott személyes adatokat kizárólag az 
+adott sebezhetőség kivizsgálásához használjuk fel, és csak a szükséges ideig 
+őrizzük meg.
+
 ## 📦 Támogatott verziók
 
 A biztonsági frissítésekkel jelenleg támogatott szoftververziók projektenként 

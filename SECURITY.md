@@ -11,6 +11,10 @@ ensure that any vulnerabilities that are found can be [disclosed
 responsibly](https://en.wikipedia.org/wiki/Responsible_disclosure) to any 
 affected parties.
 
+**Data protection:** The personal data provided during the reporting process 
+will only be used to investigate the vulnerability in question and will only be 
+retained for as long as necessary.
+
 ## 📦 Supported Versions
 
 Project versions that are currently being supported with security updates vary 
