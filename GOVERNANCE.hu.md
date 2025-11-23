@@ -36,7 +36,7 @@ BDFL.
 ## 👥 Fenntartók és közreműködők
 
 A projektbe történő hozzájárulás mindenki számára nyitott a **[Közreműködési 
-útmutató](CONTRIBUTING.hu.md)**ban leírt feltételek szerint.
+útmutatóban](CONTRIBUTING.hu.md)**leírt feltételek szerint.
 
 A fenntartók (maintainerek):
 
@@ -44,8 +44,7 @@ A fenntartók (maintainerek):
 - átnézik a pull requesteket,
 - javaslatokat tesznek technikai megoldásokra,
 - biztosítják a kódminőséget,
-- betartják a **[Közreműködők Magatartási Kódexé](CODE_OF_CONDUCT.hu.md)**nek 
-előírásait.
+- betartják a **[Közreműködők Magatartási Kódexének](CODE_OF_CONDUCT.hu.md)** előírásait.
 
 Döntéseik a projekt BDFL-jeinek felügyelete alá tartoznak.  Ha vita merül fel, a 
 BDFL döntése **végleges**.
@@ -55,17 +54,17 @@ BDFL döntése **végleges**.
 A projekt döntéshozatala a **szelíd konszenzus** és a **best-effort** 
 együttműködés elvén működik.
 
-1. **Nyilvános egyeztetés**  – Hibajegyekben, Pull Requestekben vagy Discussions 
+1. **Nyilvános egyeztetés** – Hibajegyekben, Pull Requestekben vagy Discussions 
 témákban.
 
 2. **Fenntartói javaslat**  – A maintainer(ek) javaslatot tesznek a megoldásra.
 
-3. **Döntés**  
-   – Konszenzus esetén: a maintainer beolvasztja vagy lezárja.  
+3. **Döntés**
+   – Konszenzus esetén: a maintainer beolvasztja vagy lezárja.
    – Nézeteltérés esetén: a BDFL-ek döntenek.
 
-4. **Felelős kommunikáció**  
-   – A döntést mindig tiszteletteljes és egyértelmű magyarázattal közöljük.
+4. **Felelős kommunikáció** – A döntést mindig tiszteletteljes és egyértelmű 
+magyarázattal közöljük.
 
 ## 🗂 A projekt állapota és életciklusa
 
@@ -73,10 +72,10 @@ A projekt életciklusára a **[Projekt életciklusok és gyakorlatok
 útmutatója](PRACTICES.hu.md)** dokumentumban meghatározott állapotok és 
 szabályok vonatkoznak:
 
-- Kísérleti  
-- Aktívan fejlesztett  
-- Karbantartott  
-- Archivált  
+- Kísérleti
+- Aktívan fejlesztett
+- Karbantartott
+- Archivált
 
 A projekt aktuális állapotát a BDFL-ek határozzák meg.
 
