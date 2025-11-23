@@ -36,7 +36,7 @@ BDFL.
 ## 👥 Fenntartók és közreműködők
 
 A projektbe történő hozzájárulás mindenki számára nyitott a **[Közreműködési 
-útmutatóban](CONTRIBUTING.hu.md)**leírt feltételek szerint.
+útmutatóban](CONTRIBUTING.hu.md)** leírt feltételek szerint.
 
 A fenntartók (maintainerek):
 
