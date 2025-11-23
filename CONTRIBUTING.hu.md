@@ -298,6 +298,10 @@ A hozzájáruló **mindig a végső felelős** a beküldött kódért, dokument�
 vagy egyéb tartalomért. Az AI csak eszköz – neked kell garantálnod a 
 helyességet, a licenccel való megfelelést és a minőséget.
 
+**A Eredetiségi Tanúsítvány szempontjából a beküldéssel kijelented, hogy az 
+általad ellenőrzött, AI által generált tartalmat saját szellemi termékedként, 
+vagy olyan módosításként kezeled, amely felett rendelkezési joggal bírsz.**
+
 ### 🔍 Átláthatóság
 
 Ha a hozzájárulás **jelentős része AI-eszközből származik változtatás nélkül**, 
