@@ -20,15 +20,15 @@ Together, these individuals or teams constitute the "BDFL" for the project.
 
 BDFLs have the authority to:
 
-- define the strategic direction of the project,  
-- approve or reject pull requests,  
-- schedule releases,  
-- determine the project state (experimental, active, maintained, archived),  
-- overrule or amend contribution and operational guidelines,  
+- define the strategic direction of the project,
+- approve or reject pull requests,
+- schedule releases,
+- determine the project state (experimental, active, maintained, archived),
+- overrule or amend contribution and operational guidelines,
 - resolve disputes with final authority.
 
-If the CODEOWNERS file contains only the repository owner, then the owner is  
-the sole BDFL.
+If the CODEOWNERS file contains only the repository owner, then the owner is the 
+sole BDFL.
 
 ## 👥 Maintainers and Contributors
 
@@ -37,11 +37,11 @@ Contribution to the project is open to everyone, under the rules described in
 
 Maintainers are responsible for:
 
-- reviewing and triaging issues,  
-- reviewing pull requests,  
-- proposing and discussing technical changes,  
-- ensuring code quality,  
-- following the **CODE_OF_CONDUCT.md**.
+- reviewing and triaging issues,
+- reviewing pull requests,
+- proposing and discussing technical changes,
+- ensuring code quality,
+- following the **[Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md)**.
 
 Their decisions operate under the supervision of the BDFLs. If disagreements 
 arise, the BDFLs make the **final decision**.
@@ -52,18 +52,15 @@ arise, the BDFLs make the **final decision**.
 Decision-making in this project is based on **rough consensus** and  
 **best-effort collaboration**.
 
-1. **Open Discussion**  
-   – In issues, pull requests, or GitHub Discussions.
+1. **Open Discussion** In issues, pull requests, or GitHub Discussions.
 
-2. **Maintainer Recommendation**  
-   – Maintainers review the matter and suggest a path forward.
+2. **Maintainer Recommendation** Maintainers review the matter and suggest a path forward.
 
-3. **Decision**  
-   – If consensus is reached, maintainers merge or close the item.  
+3. **Decision**
+   – If consensus is reached, maintainers merge or close the item.
    – If not, the BDFLs decide.
 
-4. **Respectful Communication**  
-   – Decisions are always communicated clearly and respectfully.
+4. **Respectful Communication** Decisions are always communicated clearly and respectfully.
 
 ## 🗂 Project Lifecycle and State
 
@@ -81,6 +78,6 @@ The current state is determined by the BDFLs.
 
 Changes to this document:
 
-- must be proposed through a pull request,  
-- must be reviewed by the code owners listed in CODEOWNERS,  
+- must be proposed through a pull request,
+- must be reviewed by the code owners listed in CODEOWNERS,
 - become effective **only with BDFL approval**.

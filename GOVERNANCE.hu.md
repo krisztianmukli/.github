@@ -36,7 +36,7 @@ BDFL.
 ## 👥 Fenntartók és közreműködők
 
 A projektbe történő hozzájárulás mindenki számára nyitott a **[Közreműködési 
-útmutató](CONTRIBUTING.hu.md)**ban leírt feltételek szerint.
+útmutatóban](CONTRIBUTING.hu.md)**leírt feltételek szerint.
 
 A fenntartók (maintainerek):
 
@@ -44,8 +44,7 @@ A fenntartók (maintainerek):
 - átnézik a pull requesteket,
 - javaslatokat tesznek technikai megoldásokra,
 - biztosítják a kódminőséget,
-- betartják a **[Közreműködők Magatartási Kódexé](CODE_OF_CONDUCT.hu.md)**nek 
-előírásait.
+- betartják a **[Közreműködők Magatartási Kódexének](CODE_OF_CONDUCT.hu.md)** előírásait.
 
 Döntéseik a projekt BDFL-jeinek felügyelete alá tartoznak.  Ha vita merül fel, a 
 BDFL döntése **végleges**.
