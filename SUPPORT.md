@@ -5,7 +5,7 @@
 
 - [How to get help](#-how-to-get-help)
 - [What NOT to do](#-what-not-to-do)
-- [Customer Support](#-customer-support)
+- [Customer Support](#%EF%B8%8F-customer-support)
 - [Privacy](#-privacy)
 
 > **This document provides guidance on how to request help effectively when
