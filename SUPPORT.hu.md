@@ -5,7 +5,7 @@
 
 - [Hogyan kaphatsz segítséget](#-hogyan-kaphatsz-segítséget)
 - [Mit NE tegyél](#-mit-ne-tegyél)
-- [Ügyféltámogatás](#-ügyféltámogatás)
+- [Ügyféltámogatás](#%EF%B8%8F-%C3%BCgyf%C3%A9lt%C3%A1mogat%C3%A1s)
 - [Adatvédelem](#-adatvédelem)
 
 > **Ez a dokumentum útmutatást ad arra, hogyan kérhetsz hatékonyan segítséget
