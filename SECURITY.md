@@ -1,7 +1,17 @@
 🇬🇧 [en](SECURITY.md) | 🇭🇺 [hu](SECURITY.hu.md)
 # Security Policy
 
-If you discover a security issue, please bring it to our attention right away!
+## Contents
+
+- [Reporting a Vulnerability](#-reporting-a-vulnerability#)
+- [Supported Versions](#-supported-versions)
+
+> **This document provides clear guidance on how to responsibly report and
+handle security issues within the project. Its purpose is to ensure a safe and
+trustworthy environment for all users and contributors, while helping
+maintainers address vulnerabilities quickly and effectively. Following these
+guidelines protects the community and improves the overall quality of the
+project.**
 
 ## 🔒 Reporting a Vulnerability
  

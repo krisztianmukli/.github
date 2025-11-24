@@ -2,10 +2,18 @@
 
 # Project Governance Model
 
-This document defines the governance structure of the project and the process by 
+## Contents
+
+- [Leadership Model: BDFL + Code Owners](#-leadership-model-bdfl-code-owners)
+- [Maintainers and Contributors](#-maintainers-and-contributors)
+- [Decision-Making Process](#-decision-making-process)
+- [Project Lifecycle and State](#-project-lifecycle-and-state)
+- [Modifying This Governance Document](#-modifying-this-governance-document)
+
+> **This document defines the governance structure of the project and the process by 
 which decisions are made. Its purpose is to clearly specify who is authorized to 
 maintain, direct, and ultimately make decisions about this repository and the 
-associated project.
+associated project.**
 
 ## 🎩 Leadership Model: BDFL + Code Owners
 

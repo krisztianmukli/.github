@@ -1,10 +1,20 @@
 🇬🇧 [en](SUPPORT.md) | 🇭🇺 [hu](SUPPORT.hu.md)
 # Támogatás és Segítség
 
-Segítségre van szükséged az induláshoz vagy a projekt használatához? Itt 
-olvashatod, hogyan kaphatsz segítséget.
+## Tartalom
 
-## Hogyan kaphatsz segítséget
+- [Hogyan kaphatsz segítséget](#-hogyan-kaphatsz-segítséget)
+- [Mit NE tegyél](#-mit-ne-tegyél)
+- [Ügyféltámogatás](#-ügyféltámogatás)
+- [Adatvédelem](#-adatvédelem)
+
+> **Ez a dokumentum útmutatást ad arra, hogyan kérhetsz hatékonyan segítséget
+a projekttel kapcsolatban. Célja, hogy minden felhasználó és közreműködő
+számára átláthatóvá tegye, mely csatornákon érdemes támogatást kérni, és
+hogyan tehetjük ezt úgy, hogy az a közösség és a karbantartók számára is
+a lehető leghatékonyabb legyen.**
+
+## ❓ Hogyan kaphatsz segítséget
 
 A **GitHub Discussions** a legjobb hely a projekthez kapcsolódó kérdésekhez, 
 javaslatokhoz vagy ötletekhez. Kérlek, ellenőrizd előtte, hogy a kérdésedet már 
@@ -39,7 +49,7 @@ mit próbáltál már ki a probléma megoldására. Adjál kódmintákat, de **n
 csatold** a teljes projekted, hogy abban majd valaki megtalálja a hibát. Olvasd 
 el a [Közreműködési útmutató](CONTRIBUTING.hu.md)nkat.
 
-## Mit NE tegyél 
+## 🚫 Mit NE tegyél 
 
 Kérjük, **ne tedd** a következőket:
 
@@ -55,7 +65,7 @@ projekthez. Légy szíves, kövesd az előző szakaszban található irányelvek
 nyilvános kérdések nyilvános válaszokat kapnak, ami a közösség minden tagjának 
 előnyére válik.✌️
 
-## Ügyféltámogatás
+## 🛎️ Ügyféltámogatás
 
 Nem nyújtunk semmiféle "ügyféltámogatást" nyílt forráskódú projektekhez.
 
@@ -63,7 +73,7 @@ Nem nyújtunk semmiféle "ügyféltámogatást" nyílt forráskódú projektekhe
 *best-effort* jellegű. Az itt szereplő információk nem jelentenek semmilyen 
 szolgáltatási szintet vagy határidővel járó vállalást.
 
-## Adatvédelem
+## 🔒 Adatvédelem
 
 A támogatási kérdések vagy segítségkérések során megadott személyes adatokat 
 csak a kommunikáció kezeléséhez használjuk fel.  Az adatokat kizárólag a 

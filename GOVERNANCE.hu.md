@@ -2,10 +2,18 @@
 
 # Projektirányítási modell
 
-Ez a dokumentum határozza meg a projekt irányítási struktúráját és a 
+## Tartalom
+
+- [Vezetési modell: BDFL + Code Owners](#-vezetési-modell-bdfl-code-owners)
+- [Fenntartók és közreműködők](#-fenntartók-és-közreműködők)
+- [Döntéshozatali folyamat](#-döntéshozatali-folyamat)
+- [A projekt állapota és életciklusa](#-a-projekt-állapota-és-életciklusa)
+- [A projektirányítási modell módosítása](#-a-projektirányítási-modell-módosítása)
+
+> **Ez a dokumentum határozza meg a projekt irányítási struktúráját és a 
 döntéshozatal folyamatát. Célja, hogy átlátható módon rögzítse, kik jogosultak 
 fenntartani, irányítani és végső döntést hozni a kódtároló és az ahhoz 
-kapcsolódó projekt működéséről.
+kapcsolódó projekt működéséről.**
 
 ## 🎩 Vezetési modell: BDFL + Code Owners
 
@@ -79,7 +87,7 @@ szabályok vonatkoznak:
 
 A projekt aktuális állapotát a BDFL-ek határozzák meg.
 
-## 🔄 A Projektirányítási struktúra módosítása
+## 🔄 A projektirányítási modell módosítása
 
 A dokumentum módosítása:
 

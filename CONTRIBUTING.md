@@ -4,7 +4,7 @@
 *Pull requests, bug reports, and all other forms of contribution are welcomed 
 and highly encouraged!* :octocat:
 
-### Contents
+## Contents
 
 - [Code of Conduct](#-code-of-conduct)
 - [Asking Questions](#-asking-questions)

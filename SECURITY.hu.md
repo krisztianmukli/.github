@@ -1,7 +1,16 @@
 🇬🇧 [en](SECURITY.md) | 🇭🇺 [hu](SECURITY.hu.md)
 # Biztonsági házirend
 
-Ha biztonsági problémát találsz, kérlek, azonnal jelezd nekünk!
+## Tartalom
+
+- [Sebezhetőség bejelentése](#-sebezhetőség-bejelentése)
+- [Támogatott verziók](#-támogatott-verziók)
+
+> **Ez a dokumentum azért készült, hogy világos útmutatást adjon a biztonsági
+problémák felelős bejelentéséhez és kezeléséhez. Célja, hogy minden felhasználó
+és közreműködő számára biztonságos környezetet teremtsen, miközben segíti a
+karbantartókat a sebezhetőségek gyors és hatékony kezelésében. Ezen irányelvek
+betartása védi a közösséget és javítja a projekt minőségét.**
 
 ## 🔒 Sebezhetőség bejelentése
 

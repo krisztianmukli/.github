@@ -1,9 +1,20 @@
 🇬🇧 [en](SUPPORT.md) | 🇭🇺 [hu](SUPPORT.hu.md)
 # Support and Help
 
-Need help getting started or using this project? Here's how.
+## Contents
 
-## How to get help
+- [How to get help](#-how-to-get-help)
+- [What NOT to do](#-what-not-to-do)
+- [Customer Support](#-customer-support)
+- [Privacy](#-privacy)
+
+> **This document provides guidance on how to request help effectively when
+using the project. Its purpose is to make it clear which support channels
+to use, and how to ask for assistance in a way that is efficient for both
+users and maintainers. Following these guidelines helps ensure a smooth and
+productive experience for the entire community.**
+
+## ❓ How to get help
 
 **GitHub Discussions** is the best place for questions, suggestions, or ideas 
 related to the project. Please check first to see if your question has already 
@@ -37,7 +48,7 @@ have already attempted to solve the problem. Provide code samples, but **do
 not** attach your entire project for someone else to debug. Review our 
 [contributing guidelines](CONTRIBUTING.md).
 
-## What NOT to do 
+## 🚫 What NOT to do 
 
 Please **do not** do any the following:
 
@@ -52,7 +63,7 @@ These are not appropriate avenues for seeking help or support with an
 open-source project. Please follow the guidelines in the previous section. 
 Public questions get public answers, which benefits everyone in the community.✌️
 
-## Customer Support
+## 🛎️ Customer Support
 
 We do not provide any "customer support" for open-source projects.
 
@@ -60,7 +71,7 @@ We do not provide any "customer support" for open-source projects.
 information contained herein does not constitute any service level or deadline 
 commitment.
 
-## Privacy
+## 🔒 Privacy
 Personal data provided in support questions or requests for assistance will only 
 be used for communication purposes.  We will only retain the data for as long as 
 necessary and will not disclose it to third parties.

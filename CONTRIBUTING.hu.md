@@ -4,7 +4,7 @@
 *A hibajelentések, funkciókérések és hozzájárulások minden formáját szívesen 
 fogadjuk és bátorítjuk!* :octocat:
 
-### Tartalom
+## Tartalom
 
 - [Magatartási kódex](#-magatartási-kódex)
 - [Kérdések feltevése](#-kérdések-feltevése)
