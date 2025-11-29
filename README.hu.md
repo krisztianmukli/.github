@@ -14,29 +14,31 @@ működjön.
 
 ## Milyen útmutatásokat tartalmaz?
 
-- Közreműködők Magatartási Kódexe: meghatározza a hozzájárulók elvárt 
-viselkedését. - Közreműködési útmutató: útmutató a hozzájárulók számára, hogy 
-tudnak részt venni a projektben. - Projektirányítási modell: a projekt 
-irányítási modellje (szerepkörök, felelősségek, döntéshozatal). - Biztonsági 
-házirend: útmutató a sebezhetőségek bejelentéséhez, valamint a támogatott 
-verziók kezeléséhez. - Támogatás és Segítség: leírja, hol és hogyan kérhetsz 
-segítséget és mit nem vállal a projekt.
+- **[Közreműködők Magatartási Kódexe](CODE_OF_CONDUCT.hu.md)**: meghatározza a hozzájárulók elvárt 
+viselkedését. 
+- **[Közreműködési útmutató](CONTRIBUTION.hu.md)**: útmutató a hozzájárulók számára, hogy tudnak részt 
+venni a projektben. 
+- **[Projektirányítási modell](GOVERNANCE.hu.md)**: a projekt irányítási modellje (szerepkörök, 
+felelősségek, döntéshozatal). 
+- **[Biztonsági házirend](SECURITY.hu.md)**: útmutató a sebezhetőségek bejelentéséhez, valamint a 
+támogatott verziók kezeléséhez. 
+- **[Támogatás és Segítség](SUPPORT.hu.md)**: leírja, hol és hogyan kérhetsz segítséget és mit nem vállal a projekt.
 
 ## Milyen további sablonokat tárol?
 
-- Hibajegyek sablonjai: megkülönböztetjük az alábbi hibalehetőségeket, a projekt 
-nem fogad el más típusú hibajegyeket.
-    - hibák
-    - karbantartási javaslatok vagy hibák
-    - dokumentációs javaslatok vagy hibák
-    - funkciókérések
-    - lokalizációs javaslatok vagy hibák
-    - a projekt használatával kapcsolatos kérdések
-    - refaktorálással kapcsolatos javaslatok
+- **Hibajegyek sablonjai**: megkülönböztetjük az alábbi hibalehetőségeket, a projekt 
+[nem fogad el](.github/config.yml) más típusú hibajegyeket.
+    - [hibák](.github/bug.yml)
+    - [karbantartási javaslatok vagy hibák](.github/chore.yml)
+    - [dokumentációs javaslatok vagy hibák](.github/documentation.yml)
+    - [funkciókérések](.github/feature.yml)
+    - [lokalizációs javaslatok vagy hibák](.github/localisation.yml)
+    - [a projekt használatával kapcsolatos kérdések](.github/question.yml)
+    - [refaktorálással kapcsolatos javaslatok](.github/refactoring.yml)
     
-- Beolvasztási kérelem (Pull Request) sablon: megadja a beolvasztási kérelmek 
+- **[Pull Request sablon](/.github/PULL_REQUEST_TEMPLATE.md)**: megadja a beolvasztási kérelmek 
 elfogadott formáját.
-- `CODEOWNERS`: ez a fájl határozza meg, hogy mely fájlokért vagy könyvtárakért 
+- **[CODEOWNERS](.github/CODEOWNERS)**: ez a fájl határozza meg, hogy mely fájlokért vagy könyvtárakért 
 kik a felelősök a szervezet repóiban. A GitHub ezt a fájlt az alábbiakhoz 
 használja:
     - Automatikusan bekéri a kijelölt kódtulajdonosok review-ját
@@ -44,5 +46,5 @@ használja:
 merge-elni
     - Meghatározza, ki a felelős bizonyos komponensek vagy útvonalak 
 karbantartásáért
-- `FUNDING.yml`: ez fájl teszi lehetővé, hogy a GitHub felületén megjelenjenek a 
+- **[FUNDING.yml](.github/FUNDING.yml)**: ez fájl teszi lehetővé, hogy a GitHub felületén megjelenjenek a 
 támogatási / szponzorációs linkek.
