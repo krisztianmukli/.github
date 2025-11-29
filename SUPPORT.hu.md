@@ -1,4 +1,4 @@
-🇬🇧 [en](SUPPORT.md) | 🇭🇺 [hu](SUPPORT.hu.md)
+🇬🇧 [en](SUPPORT.md)   |   🇭🇺 [hu](SUPPORT.hu.md)
 # Támogatás és Segítség
 
 ## Tartalom
