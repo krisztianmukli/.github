@@ -14,32 +14,32 @@ contribution processes.
 
 ## What guidelines does it include?
 
-- **Code of Conduct**: defines the expected behavior of contributors.
-- **Contribution Guide**: instructions for contributors on how to participate in 
+- **[Code of Conduct](CODE_OF_CONDUCT.md)**: defines the expected behavior of contributors.
+- **[Contribution Guide](CONTRIBUTION.md)**: instructions for contributors on how to participate in 
 the project.
-- **Governance Model**: describes the project’s governance structure (roles, 
+- **[Governance Model](GOVERNANCE.md)**: describes the project’s governance structure (roles, 
 responsibilities, decision-making).
-- **Security Policy**: guidance on reporting vulnerabilities and handling 
+- **[Security Policy](SECURITY.md)**: guidance on reporting vulnerabilities and handling 
 supported versions.
-- **Support and Help**: explains where and how users can request help, and what 
+- **[Support and Help](SUPPORT.md)**: explains where and how users can request help, and what 
 level of support the project can provide.
 
 ## What additional templates does it store?
 
 - **Issue templates**: the following categories are distinguished, and the 
-project does not accept other issue types:
-    - bug reports
-    - maintenance suggestions or issues
-    - documentation suggestions or issues
-    - feature requests
-    - localization suggestions or issues
-    - questions related to project usage
-    - refactoring suggestions
+project [does not accept](.github/ISSUE_TEMPLATE/config.yml) other issue types:
+    - [bug reports](.github/ISSUE_TEMPLATE/bug.yml)
+    - [maintenance suggestions or issues](.github/ISSUE_TEMPLATE/chore.yml)
+    - [documentation suggestions or issues](.github/ISSUE_TEMPLATE/documentation.yml)
+    - [feature requests](.github/ISSUE_TEMPLATE/feature.yml)
+    - [localization suggestions or issues](.github/ISSUE_TEMPLATE/localisation.yml)
+    - [questions related to project usage](.github/ISSUE_TEMPLATE/question.yml)
+    - [refactoring suggestions](.github/ISSUE_TEMPLATE/refactoring.yml)
 
-- **Pull Request template**: defines the accepted structure and required 
+- **[Pull Request template](/.github/PULL_REQUEST_TEMPLATE.md)**: defines the accepted structure and required 
 sections for pull requests.
 
-- **`CODEOWNERS`**: this file defines which individuals or teams are responsible 
+- **[CODEOWNERS](.github/CODEOWNERS)**: this file defines which individuals or teams are responsible 
 for which files or directories across the organization’s repositories. GitHub 
 uses this file to:
     - Automatically request reviews from the designated code owners
@@ -47,5 +47,5 @@ uses this file to:
 protections are configured)
     - Determine who maintains specific components or paths 
 
-- **`FUNDING.yml`**: this file enables the display of sponsorship or funding 
+- **[FUNDING.yml](.github/FUNDING.yml)**: this file enables the display of sponsorship or funding 
 links on GitHub repository pages.
