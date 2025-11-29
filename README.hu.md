@@ -1,4 +1,4 @@
-🇬🇧 [en](README.md)&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;🇭🇺 [hu](README.hu.md)
+🇬🇧 [en](README.md)&nbsp;&nbsp;|&nbsp;&nbsp;🇭🇺 [hu](README.hu.md)
 
 # Github közösségi irányelvek
 

@@ -1,4 +1,4 @@
-🇬🇧 [en](CONTRIBUTING.md)&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;🇭🇺 [hu](CONTRIBUTING.hu.md)
+🇬🇧 [en](CONTRIBUTING.md)&nbsp;&nbsp;|&nbsp;&nbsp;🇭🇺 [hu](CONTRIBUTING.hu.md)
 # Közreműködési útmutató
 
 *A hibajelentések, funkciókérések és hozzájárulások minden formáját szívesen 
