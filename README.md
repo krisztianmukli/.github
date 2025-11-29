@@ -1,4 +1,4 @@
-🇬🇧 [en](README.md) | 🇭🇺 [hu](README.hu.md)
+🇬🇧 [en](README.md)  |  🇭🇺 [hu](README.hu.md)
 
 # Github Community Health Files
 
