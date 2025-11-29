@@ -1,4 +1,4 @@
-🇬🇧 [en](GOVERNANCE.md)   |   🇭🇺 [hu](GOVERNANCE.hu.md)
+🇬🇧 [en](GOVERNANCE.md)&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;🇭🇺 [hu](GOVERNANCE.hu.md)
 
 # Project Governance Model
 

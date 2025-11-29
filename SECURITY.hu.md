@@ -1,4 +1,4 @@
-🇬🇧 [en](SECURITY.md)   |   🇭🇺 [hu](SECURITY.hu.md)
+🇬🇧 [en](SECURITY.md)&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;🇭🇺 [hu](SECURITY.hu.md)
 # Biztonsági házirend
 
 ## Tartalom

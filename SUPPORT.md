@@ -1,4 +1,4 @@
-🇬🇧 [en](SUPPORT.md)   |   🇭🇺 [hu](SUPPORT.hu.md)
+🇬🇧 [en](SUPPORT.md)&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; 🇭🇺 [hu](SUPPORT.hu.md)
 # Support and Help
 
 ## Contents
